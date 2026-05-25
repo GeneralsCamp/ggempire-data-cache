@@ -2,14 +2,13 @@
   "resultCount": 1,
   "results": [
     {
-      "features": [
-        "gameCenter",
-        "iosUniversal"
-      ],
       "isGameCenterEnabled": true,
-      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
-      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
-      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
+      "advisories": [
+        "Häufig/stark ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
+        "Lootboxen",
+        "Häufig/stark ausgeprägt: Wettkämpfe",
+        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu"
+      ],
       "supportedDevices": [
         "iPhone5s-iPhone5s",
         "iPadAir-iPadAir",
@@ -139,27 +138,17 @@
         "iPadAir13M4-iPadAir13M4",
         "iPadAir13M4Cellular-iPadAir13M4Cellular"
       ],
-      "advisories": [
-        "Häufig/stark ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
-        "Lootboxen",
-        "Häufig/stark ausgeprägt: Wettkämpfe",
-        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu"
-      ],
+      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
       "kind": "software",
       "screenshotUrls": [],
       "ipadScreenshotUrls": [],
       "appletvScreenshotUrls": [],
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-      "minimumOsVersion": "15.0",
-      "trackCensoredName": "Empire Four Kingdoms",
-      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
-      "contentAdvisoryRating": "12+",
-      "averageUserRating": 4.08279,
-      "genreIds": [
-        "6014",
-        "6016",
-        "7015",
-        "7017"
+      "features": [
+        "gameCenter",
+        "iosUniversal"
       ],
       "artistId": 553166917,
       "artistName": "Goodgame Studio",
@@ -170,15 +159,25 @@
         "Strategie"
       ],
       "price": 0,
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "sellerName": "Stillfront Germany GmbH",
+      "releaseDate": "2013-02-26T13:45:24Z",
       "primaryGenreName": "Games",
       "primaryGenreId": 6014,
-      "sellerName": "Stillfront Germany GmbH",
+      "genreIds": [
+        "6014",
+        "6016",
+        "7015",
+        "7017"
+      ],
       "trackId": 585661281,
       "trackName": "Empire Four Kingdoms",
       "isVppDeviceBasedLicensingEnabled": true,
       "currentVersionReleaseDate": "2026-05-13T11:07:53Z",
       "releaseNotes": "Hört, Herren und Damen!\n\nDie königliche Schmiede hat sich bemüht, euren Stahl zu schärfen und die Tore zu verstärken. Dieses Update vertreibt die abscheulichen Schädlinge (Fehler), die das Land plagten und sorgt für einen reibungsloseren Weg zum Ruhm.\nNeu in dieser Version:\n    Behobene Fehler: Vertrieben für eine reibungslose Herrschaft.\n    Verstärkte Stabilität: Leistungsverbesserungen im gesamten Reich.\n\nZu den Waffen! Die vier Königreiche warten auf euren Befehl.",
+      "averageUserRating": 4.08279,
+      "trackCensoredName": "Empire Four Kingdoms",
+      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
+      "contentAdvisoryRating": "12+",
       "version": "4.132.23",
       "wrapperType": "software",
       "currency": "EUR",
@@ -203,11 +202,12 @@
       ],
       "fileSizeBytes": "270025728",
       "formattedPrice": "Gratis",
-      "trackContentRating": "12+",
       "userRatingCountForCurrentVersion": 2754,
-      "sellerUrl": "https://www.goodgamestudios.com/",
+      "trackContentRating": "12+",
       "averageUserRatingForCurrentVersion": 4.08279,
-      "releaseDate": "2013-02-26T13:45:24Z",
+      "sellerUrl": "https://www.goodgamestudios.com/",
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "minimumOsVersion": "15.0",
       "userRatingCount": 2754
     }
   ]
