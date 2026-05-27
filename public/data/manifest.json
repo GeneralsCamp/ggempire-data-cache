@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-27T08:49:19.701Z",
+  "updatedAt": "2026-05-27T09:51:27.417Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -28,11 +28,11 @@
     "tr"
   ],
   "empire": {
-    "itemVersion": "772.01",
+    "itemVersion": "774.01",
     "itemVersionUrl": "/data/empire/ItemsVersion.properties",
     "itemsUrl": "/data/empire/items_latest.json",
-    "archivedItemsUrl": "/data/empire/items/items_772_01.json",
-    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v772.01.json"
+    "archivedItemsUrl": "/data/empire/items/items_774_01.json",
+    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v774.01.json"
   },
   "language": {
     "version": "4243",
@@ -80,11 +80,11 @@
   },
   "empireDll": {
     "available": true,
-    "version": "4c0ced1e9b52588648c5",
+    "version": "6e1de3831b2563bbef89",
     "source": "empire-index-preload",
     "versionUrl": "/data/empire/dll/version.json",
     "dllUrl": "/data/empire/dll/ggs.dll.latest.js",
     "originalIndexUrl": "https://empire-html5.goodgamestudios.com/default/index.html",
-    "originalDllUrl": "https://empire-html5.goodgamestudios.com/default/dll/ggs.dll.4c0ced1e9b52588648c5.js"
+    "originalDllUrl": "https://empire-html5.goodgamestudios.com/default/dll/ggs.dll.6e1de3831b2563bbef89.js"
   }
 }
