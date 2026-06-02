@@ -2,11 +2,11 @@
   "resultCount": 1,
   "results": [
     {
+      "isGameCenterEnabled": true,
       "screenshotUrls": [],
       "ipadScreenshotUrls": [],
       "appletvScreenshotUrls": [],
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-      "isGameCenterEnabled": true,
       "features": [
         "gameCenter",
         "iosUniversal"
@@ -150,7 +150,10 @@
       "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
       "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
       "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/d4/39/2bd439a8-b574-698f-584d-028316d332c7/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
+      "currentVersionReleaseDate": "2026-05-13T11:07:53Z",
+      "minimumOsVersion": "15.0",
       "sellerUrl": "https://www.goodgamestudios.com/",
+      "averageUserRatingForCurrentVersion": 4.08312,
       "languageCodesISO2A": [
         "CS",
         "NL",
@@ -173,24 +176,28 @@
       "formattedPrice": "Gratis",
       "userRatingCountForCurrentVersion": 2755,
       "trackContentRating": "12+",
-      "averageUserRatingForCurrentVersion": 4.08312,
-      "minimumOsVersion": "15.0",
-      "releaseNotes": "Hört, Herren und Damen!\n\nDie königliche Schmiede hat sich bemüht, euren Stahl zu schärfen und die Tore zu verstärken. Dieses Update vertreibt die abscheulichen Schädlinge (Fehler), die das Land plagten und sorgt für einen reibungsloseren Weg zum Ruhm.\nNeu in dieser Version:\n    Behobene Fehler: Vertrieben für eine reibungslose Herrschaft.\n    Verstärkte Stabilität: Leistungsverbesserungen im gesamten Reich.\n\nZu den Waffen! Die vier Königreiche warten auf euren Befehl.",
-      "sellerName": "Stillfront Germany GmbH",
+      "artistId": 553166917,
+      "artistName": "Goodgame Studio",
       "genres": [
         "Spiele",
         "Unterhaltung",
         "Simulation",
         "Strategie"
       ],
-      "artistId": 553166917,
-      "artistName": "Goodgame Studio",
+      "price": 0,
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
       "primaryGenreName": "Games",
       "primaryGenreId": 6014,
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
-      "trackName": "Empire Four Kingdoms",
-      "trackId": 585661281,
-      "currentVersionReleaseDate": "2026-05-13T11:07:53Z",
+      "genreIds": [
+        "6014",
+        "6016",
+        "7015",
+        "7017"
+      ],
+      "releaseDate": "2013-02-26T13:45:24Z",
+      "releaseNotes": "Hört, Herren und Damen!\n\nDie königliche Schmiede hat sich bemüht, euren Stahl zu schärfen und die Tore zu verstärken. Dieses Update vertreibt die abscheulichen Schädlinge (Fehler), die das Land plagten und sorgt für einen reibungsloseren Weg zum Ruhm.\nNeu in dieser Version:\n    Behobene Fehler: Vertrieben für eine reibungslose Herrschaft.\n    Verstärkte Stabilität: Leistungsverbesserungen im gesamten Reich.\n\nZu den Waffen! Die vier Königreiche warten auf euren Befehl.",
+      "isVppDeviceBasedLicensingEnabled": true,
+      "sellerName": "Stillfront Germany GmbH",
       "version": "4.132.23",
       "wrapperType": "software",
       "currency": "EUR",
@@ -199,15 +206,8 @@
       "trackCensoredName": "Empire Four Kingdoms",
       "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
       "contentAdvisoryRating": "12+",
-      "genreIds": [
-        "6014",
-        "6016",
-        "7015",
-        "7017"
-      ],
-      "price": 0,
-      "isVppDeviceBasedLicensingEnabled": true,
-      "releaseDate": "2013-02-26T13:45:24Z",
+      "trackId": 585661281,
+      "trackName": "Empire Four Kingdoms",
       "userRatingCount": 2755
     }
   ]
