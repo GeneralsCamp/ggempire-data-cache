@@ -7,6 +7,8 @@ import { XMLParser } from "fast-xml-parser";
 const OUT_DIR = "public/data";
 const MAX_ITEM_HISTORY = 8;
 
+const FORCE_LOADER = "4134027";
+
 const LANGUAGES = [
     "en",
     "ar",
@@ -601,8 +603,17 @@ async function updateE4k({ history, manifest }) {
 
     const {
         appStoreVersion,
-        loaderVersion
+        loaderVersion: apiLoaderVersion
     } = parseE4kLoaderVersionFromAppStore(appstoreJson);
+
+    const loaderVersion =
+        FORCE_LOADER || apiLoaderVersion;
+        
+    console.log(
+        FORCE_LOADER
+            ? `Using forced E4K loader: ${loaderVersion}`
+            : `Using AppStore loader: ${loaderVersion}`
+    );
 
     const versionsUrl =
         `https://media.goodgamestudios.com/loader/empirefourkingdoms/${loaderVersion}/versions.json`;
