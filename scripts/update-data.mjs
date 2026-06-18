@@ -7,7 +7,7 @@ import { XMLParser } from "fast-xml-parser";
 const OUT_DIR = "public/data";
 const MAX_ITEM_HISTORY = 8;
 
-const FORCE_LOADER = "4134027";
+const FORCE_LOADER = "4135017";
 
 const LANGUAGES = [
     "en",
