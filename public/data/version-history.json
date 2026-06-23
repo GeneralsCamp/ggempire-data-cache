@@ -41,6 +41,13 @@
       "sourceUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v775.02.json",
       "file": "/data/empire/items/items_775_02.json",
       "latestFile": "/data/empire/items_latest.json"
+    },
+    {
+      "version": "776.03",
+      "addedAt": "2026-06-23T09:16:22.319Z",
+      "sourceUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v776.03.json",
+      "file": "/data/empire/items/items_776_03.json",
+      "latestFile": "/data/empire/items_latest.json"
     }
   ],
   "e4kItems": [
