@@ -3,16 +3,20 @@
   "results": [
     {
       "isGameCenterEnabled": true,
-      "features": [
-        "gameCenter",
-        "iosUniversal"
-      ],
       "advisories": [
         "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
         "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
         "Häufig/stark ausgeprägt: Wettkämpfe",
         "Lootboxen"
       ],
+      "kind": "software",
+      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/0b/2c/9e0b2c80-29b7-8fae-0ee1-b6f4f38da546/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/0b/2c/9e0b2c80-29b7-8fae-0ee1-b6f4f38da546/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
+      "screenshotUrls": [],
+      "ipadScreenshotUrls": [],
+      "appletvScreenshotUrls": [],
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/0b/2c/9e0b2c80-29b7-8fae-0ee1-b6f4f38da546/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
       "supportedDevices": [
         "iPhone5s-iPhone5s",
         "iPadAir-iPadAir",
@@ -142,29 +146,15 @@
         "iPadAir13M4-iPadAir13M4",
         "iPadAir13M4Cellular-iPadAir13M4Cellular"
       ],
-      "kind": "software",
-      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
-      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/0b/2c/9e0b2c80-29b7-8fae-0ee1-b6f4f38da546/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
-      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/0b/2c/9e0b2c80-29b7-8fae-0ee1-b6f4f38da546/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
-      "screenshotUrls": [],
-      "ipadScreenshotUrls": [],
-      "appletvScreenshotUrls": [],
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/0b/2c/9e0b2c80-29b7-8fae-0ee1-b6f4f38da546/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-      "artistId": 553166917,
-      "artistName": "Goodgame Studio",
-      "genres": [
-        "Spiele",
-        "Unterhaltung",
-        "Simulation",
-        "Strategie"
+      "features": [
+        "gameCenter",
+        "iosUniversal"
       ],
-      "price": 0,
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
       "releaseDate": "2013-02-26T13:45:24Z",
-      "currentVersionReleaseDate": "2026-06-23T12:05:37Z",
-      "trackId": 585661281,
       "trackName": "Empire Four Kingdoms",
-      "sellerName": "Stillfront Germany GmbH",
+      "trackId": 585661281,
+      "releaseNotes": "Herren und Damen der vier Königreiche! Der Riss-Raid wurde neu geschmiedet! Antwortet seinem Ruf erneut — ein neues Quest-Board ruft nun mutige Herrscher zu neuen Herausforderungen, während neue Riss-Punkt-Belohnungen und eine Diamant-Division auf jene warten, die kühn genug sind, um über alle anderen zu steigen. Der Boss fällt härter; Ruhm erreicht größere Höhen. Schärfe deinen Stahl und reite voran — der Riss hungert!",
+      "isVppDeviceBasedLicensingEnabled": true,
       "genreIds": [
         "6014",
         "6016",
@@ -173,8 +163,7 @@
       ],
       "primaryGenreName": "Games",
       "primaryGenreId": 6014,
-      "isVppDeviceBasedLicensingEnabled": true,
-      "releaseNotes": "Herren und Damen der vier Königreiche! Der Riss-Raid wurde neu geschmiedet! Antwortet seinem Ruf erneut — ein neues Quest-Board ruft nun mutige Herrscher zu neuen Herausforderungen, während neue Riss-Punkt-Belohnungen und eine Diamant-Division auf jene warten, die kühn genug sind, um über alle anderen zu steigen. Der Boss fällt härter; Ruhm erreicht größere Höhen. Schärfe deinen Stahl und reite voran — der Riss hungert!",
+      "sellerName": "Stillfront Germany GmbH",
       "version": "4.135.17",
       "wrapperType": "software",
       "currency": "EUR",
@@ -182,7 +171,7 @@
       "averageUserRating": 4.08445,
       "trackCensoredName": "Empire Four Kingdoms",
       "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
-      "contentAdvisoryRating": "12+",
+      "averageUserRatingForCurrentVersion": 4.08445,
       "languageCodesISO2A": [
         "CS",
         "NL",
@@ -201,13 +190,24 @@
         "ZH",
         "TR"
       ],
+      "sellerUrl": "https://www.goodgamestudios.com/",
+      "contentAdvisoryRating": "12+",
       "fileSizeBytes": "276417536",
       "formattedPrice": "Gratis",
       "userRatingCountForCurrentVersion": 2759,
       "trackContentRating": "12+",
-      "sellerUrl": "https://www.goodgamestudios.com/",
       "minimumOsVersion": "15.0",
-      "averageUserRatingForCurrentVersion": 4.08445,
+      "artistId": 553166917,
+      "artistName": "Goodgame Studio",
+      "currentVersionReleaseDate": "2026-06-23T12:05:37Z",
+      "price": 0,
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "genres": [
+        "Spiele",
+        "Unterhaltung",
+        "Simulation",
+        "Strategie"
+      ],
       "userRatingCount": 2759
     }
   ]
