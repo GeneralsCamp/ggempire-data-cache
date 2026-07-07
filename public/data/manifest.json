@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T17:27:47.444Z",
+  "updatedAt": "2026-07-07T20:15:55.090Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -67,7 +67,7 @@
   },
   "e4k": {
     "appVersion": "4135017",
-    "appStoreVersion": "4.135.17",
+    "appStoreVersion": "4.136.43",
     "itemVersion": "776.RC.05",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/e4k/versions.json",
