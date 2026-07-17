@@ -607,12 +607,14 @@ async function updateE4k({ history, manifest }) {
     } = parseE4kLoaderVersionFromAppStore(appstoreJson);
 
     const loaderVersion =
-        FORCE_LOADER || apiLoaderVersion;
+    BigInt(apiLoaderVersion) > BigInt(FORCE_LOADER)
+        ? apiLoaderVersion
+        : FORCE_LOADER;
         
     console.log(
-        FORCE_LOADER
-            ? `Using forced E4K loader: ${loaderVersion}`
-            : `Using AppStore loader: ${loaderVersion}`
+        loaderVersion === apiLoaderVersion
+            ? `Using newer App Store loader: ${loaderVersion}`
+            : `Using forced E4K loader: ${loaderVersion}`
     );
 
     const versionsUrl =
