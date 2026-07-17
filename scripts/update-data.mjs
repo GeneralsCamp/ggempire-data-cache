@@ -606,22 +606,40 @@ async function updateE4k({ history, manifest }) {
         loaderVersion: apiLoaderVersion
     } = parseE4kLoaderVersionFromAppStore(appstoreJson);
 
-    const loaderVersion =
+const preferredLoaderVersion =
     BigInt(apiLoaderVersion) > BigInt(FORCE_LOADER)
         ? apiLoaderVersion
         : FORCE_LOADER;
-        
-    console.log(
-        loaderVersion === apiLoaderVersion
-            ? `Using newer App Store loader: ${loaderVersion}`
-            : `Using forced E4K loader: ${loaderVersion}`
-    );
 
-    const versionsUrl =
-        `https://media.goodgamestudios.com/loader/empirefourkingdoms/${loaderVersion}/versions.json`;
+let loaderVersion = preferredLoaderVersion;
+let versionsUrl =
+    `https://media.goodgamestudios.com/loader/empirefourkingdoms/${loaderVersion}/versions.json`;
 
-    const versionsText =
-        await fetchText(versionsUrl);
+let versionsText;
+
+try {
+    console.log(`Trying E4K loader: ${loaderVersion}`);
+    versionsText = await fetchText(versionsUrl);
+} catch (error) {
+    if (
+        loaderVersion !== FORCE_LOADER &&
+        error.message.includes("404")
+    ) {
+        console.warn(
+            `Loader ${loaderVersion} does not exist, falling back to ${FORCE_LOADER}`
+        );
+
+        loaderVersion = FORCE_LOADER;
+
+        versionsUrl =
+            `https://media.goodgamestudios.com/loader/empirefourkingdoms/${loaderVersion}/versions.json`;
+
+        versionsText =
+            await fetchText(versionsUrl);
+    } else {
+        throw error;
+    }
+}
 
     const versionsJson =
         JSON.parse(versionsText);
