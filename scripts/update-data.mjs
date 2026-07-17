@@ -7,7 +7,12 @@ import { XMLParser } from "fast-xml-parser";
 const OUT_DIR = "public/data";
 const MAX_ITEM_HISTORY = 8;
 
-const FORCE_LOADER = "4135017";
+const FORCE_LOADER = null;
+
+const E4K_LOADER_BASES = [
+    "https://media-s3.goodgamestudios.com/loader",
+    "https://media.goodgamestudios.com/loader"
+];
 
 const LANGUAGES = [
     "en",
@@ -606,40 +611,35 @@ async function updateE4k({ history, manifest }) {
         loaderVersion: apiLoaderVersion
     } = parseE4kLoaderVersionFromAppStore(appstoreJson);
 
-const preferredLoaderVersion =
-    BigInt(apiLoaderVersion) > BigInt(FORCE_LOADER)
-        ? apiLoaderVersion
-        : FORCE_LOADER;
+    const preferredLoaderVersion =
+        FORCE_LOADER && BigInt(apiLoaderVersion) > BigInt(FORCE_LOADER)
+            ? apiLoaderVersion
+            : (FORCE_LOADER || apiLoaderVersion);
 
-let loaderVersion = preferredLoaderVersion;
-let versionsUrl =
-    `https://media.goodgamestudios.com/loader/empirefourkingdoms/${loaderVersion}/versions.json`;
+    let loaderVersion = preferredLoaderVersion;
+    let loaderBase;
+    let versionsUrl;
 
-let versionsText;
+    let versionsText;
 
-try {
-    console.log(`Trying E4K loader: ${loaderVersion}`);
-    versionsText = await fetchText(versionsUrl);
-} catch (error) {
-    if (
-        loaderVersion !== FORCE_LOADER &&
-        error.message.includes("404")
-    ) {
-        console.warn(
-            `Loader ${loaderVersion} does not exist, falling back to ${FORCE_LOADER}`
-        );
+    for (const candidateBase of E4K_LOADER_BASES) {
+        const candidateUrl =
+            `${candidateBase}/${loaderVersion}/versions.json`;
 
-        loaderVersion = FORCE_LOADER;
-
-        versionsUrl =
-            `https://media.goodgamestudios.com/loader/empirefourkingdoms/${loaderVersion}/versions.json`;
-
-        versionsText =
-            await fetchText(versionsUrl);
-    } else {
-        throw error;
+        try {
+            console.log(`Trying E4K loader: ${candidateUrl}`);
+            versionsText = await fetchText(candidateUrl);
+            loaderBase = candidateBase;
+            versionsUrl = candidateUrl;
+            break;
+        } catch (error) {
+            console.warn(`Loader request failed: ${candidateUrl}`);
+        }
     }
-}
+
+    if (!versionsText) {
+        throw new Error(`E4K loader ${loaderVersion} was not found on either CDN.`);
+    }
 
     const versionsJson =
         JSON.parse(versionsText);
@@ -663,7 +663,7 @@ try {
         String(itemVersion).replaceAll(".", "_");
 
     const ggsUrl =
-        `https://media.goodgamestudios.com/loader/empirefourkingdoms/${loaderVersion}/itemsXML/items_${normalizedItemVersion}.ggs`;
+        `${loaderBase}/${loaderVersion}/itemsXML/items_${normalizedItemVersion}.ggs`;
 
     const archiveRel =
         `e4k/items/items_${slug(loaderVersion)}_${slug(itemVersion)}.json`;
