@@ -139,6 +139,18 @@
       "rawFile": "/data/e4k/items/raw/items_4135017_776_RC_05.raw.json",
       "latestFile": "/data/e4k/items_latest.json",
       "rawLatestFile": "/data/e4k/items_latest.raw.json"
+    },
+    {
+      "appVersion": "4136043",
+      "appStoreVersion": "4.136.43",
+      "itemVersion": "780.RC.01",
+      "addedAt": "2026-07-17T20:49:06.197Z",
+      "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4136043/versions.json",
+      "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4136043/itemsXML/items_780_RC_01.ggs",
+      "file": "/data/e4k/items/items_4136043_780_RC_01.json",
+      "rawFile": "/data/e4k/items/raw/items_4136043_780_RC_01.raw.json",
+      "latestFile": "/data/e4k/items_latest.json",
+      "rawLatestFile": "/data/e4k/items_latest.raw.json"
     }
   ]
 }

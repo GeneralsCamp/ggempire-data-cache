@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T19:33:56.118Z",
+  "updatedAt": "2026-07-17T20:48:25.239Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -66,17 +66,17 @@
     "failed": []
   },
   "e4k": {
-    "appVersion": "4135017",
+    "appVersion": "4136043",
     "appStoreVersion": "4.136.43",
-    "itemVersion": "776.RC.05",
+    "itemVersion": "780.RC.01",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/e4k/versions.json",
     "itemsUrl": "/data/e4k/items_latest.json",
     "rawItemsUrl": "/data/e4k/items_latest.raw.json",
-    "archivedItemsUrl": "/data/e4k/items/items_4135017_776_RC_05.json",
-    "archivedRawItemsUrl": "/data/e4k/items/raw/items_4135017_776_RC_05.raw.json",
-    "originalVersionsUrl": "https://media.goodgamestudios.com/loader/empirefourkingdoms/4135017/versions.json",
-    "originalItemsUrl": "https://media.goodgamestudios.com/loader/empirefourkingdoms/4135017/itemsXML/items_776_RC_05.ggs"
+    "archivedItemsUrl": "/data/e4k/items/items_4136043_780_RC_01.json",
+    "archivedRawItemsUrl": "/data/e4k/items/raw/items_4136043_780_RC_01.raw.json",
+    "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4136043/versions.json",
+    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4136043/itemsXML/items_780_RC_01.ggs"
   },
   "empireDll": {
     "available": true,
