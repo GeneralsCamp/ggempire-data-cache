@@ -2,13 +2,6 @@
   "resultCount": 1,
   "results": [
     {
-      "screenshotUrls": [],
-      "ipadScreenshotUrls": [],
-      "appletvScreenshotUrls": [],
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
-      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
-      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
       "isGameCenterEnabled": true,
       "features": [
         "gameCenter",
@@ -150,19 +143,13 @@
         "iPadAir13M4Cellular-iPadAir13M4Cellular"
       ],
       "kind": "software",
-      "minimumOsVersion": "15.0",
-      "trackCensoredName": "Empire Four Kingdoms",
-      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
-      "contentAdvisoryRating": "12+",
-      "releaseNotes": "Hört, Herren und Damen! Eure treuen Handwerker haben Tag und Nacht gearbeitet, um das Königreich zu polieren. Lästige Kobolde wurden aus dem Bergfried vertrieben, müde Zahnräder wurden neu geschmiedet, und das Königreich läuft nun glatter und stärker denn je unter eurer Fahne. Schärft eure Klingen, edler Herrscher — neuer Ruhm erwartet euch!",
-      "averageUserRating": 4.08077,
-      "genreIds": [
-        "6014",
-        "6016",
-        "7015",
-        "7017"
-      ],
-      "releaseDate": "2013-02-26T13:45:24Z",
+      "screenshotUrls": [],
+      "ipadScreenshotUrls": [],
+      "appletvScreenshotUrls": [],
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
       "artistId": 553166917,
       "artistName": "Goodgame Studio",
       "genres": [
@@ -172,13 +159,22 @@
         "Strategie"
       ],
       "price": 0,
+      "genreIds": [
+        "6014",
+        "6016",
+        "7015",
+        "7017"
+      ],
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "isVppDeviceBasedLicensingEnabled": true,
+      "sellerName": "Stillfront Germany GmbH",
       "primaryGenreName": "Games",
       "primaryGenreId": 6014,
-      "isVppDeviceBasedLicensingEnabled": true,
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "releaseDate": "2013-02-26T13:45:24Z",
       "trackId": 585661281,
       "trackName": "Empire Four Kingdoms",
       "currentVersionReleaseDate": "2026-07-07T09:17:56Z",
+      "releaseNotes": "Hört, Herren und Damen! Eure treuen Handwerker haben Tag und Nacht gearbeitet, um das Königreich zu polieren. Lästige Kobolde wurden aus dem Bergfried vertrieben, müde Zahnräder wurden neu geschmiedet, und das Königreich läuft nun glatter und stärker denn je unter eurer Fahne. Schärft eure Klingen, edler Herrscher — neuer Ruhm erwartet euch!",
       "version": "4.136.43",
       "wrapperType": "software",
       "currency": "EUR",
@@ -207,7 +203,11 @@
       "formattedPrice": "Gratis",
       "userRatingCountForCurrentVersion": 2761,
       "trackContentRating": "12+",
-      "sellerName": "Stillfront Germany GmbH",
+      "averageUserRating": 4.08077,
+      "trackCensoredName": "Empire Four Kingdoms",
+      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
+      "contentAdvisoryRating": "12+",
+      "minimumOsVersion": "15.0",
       "userRatingCount": 2761
     }
   ]
