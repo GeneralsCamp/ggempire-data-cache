@@ -2,14 +2,20 @@
   "resultCount": 1,
   "results": [
     {
-      "isGameCenterEnabled": true,
       "screenshotUrls": [],
       "ipadScreenshotUrls": [],
       "appletvScreenshotUrls": [],
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "isGameCenterEnabled": true,
       "features": [
         "gameCenter",
         "iosUniversal"
+      ],
+      "advisories": [
+        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
+        "Lootboxen",
+        "Häufig/stark ausgeprägt: Wettkämpfe",
+        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt"
       ],
       "supportedDevices": [
         "iPhone5s-iPhone5s",
@@ -140,30 +146,11 @@
         "iPadAir13M4-iPadAir13M4",
         "iPadAir13M4Cellular-iPadAir13M4Cellular"
       ],
-      "advisories": [
-        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
-        "Lootboxen",
-        "Häufig/stark ausgeprägt: Wettkämpfe",
-        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt"
-      ],
       "kind": "software",
       "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
       "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
       "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/8b/49/ab8b49ab-cd94-4706-3358-47a646ba4908/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
-      "minimumOsVersion": "15.0",
-      "releaseNotes": "Hört, Herren und Damen! Eure treuen Handwerker haben Tag und Nacht gearbeitet, um das Königreich zu polieren. Lästige Kobolde wurden aus dem Bergfried vertrieben, müde Zahnräder wurden neu geschmiedet, und das Königreich läuft nun glatter und stärker denn je unter eurer Fahne. Schärft eure Klingen, edler Herrscher — neuer Ruhm erwartet euch!",
-      "genres": [
-        "Spiele",
-        "Unterhaltung",
-        "Simulation",
-        "Strategie"
-      ],
-      "artistId": 553166917,
-      "artistName": "Goodgame Studio",
-      "price": 0,
-      "trackContentRating": "12+",
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
-      "averageUserRatingForCurrentVersion": 4.0811,
+      "userRatingCountForCurrentVersion": 2762,
       "sellerUrl": "https://www.goodgamestudios.com/",
       "languageCodesISO2A": [
         "CS",
@@ -185,19 +172,22 @@
       ],
       "fileSizeBytes": "273071104",
       "formattedPrice": "Gratis",
-      "userRatingCountForCurrentVersion": 2762,
-      "genreIds": [
-        "6014",
-        "6016",
-        "7015",
-        "7017"
+      "trackContentRating": "12+",
+      "releaseNotes": "Hört, Herren und Damen! Eure treuen Handwerker haben Tag und Nacht gearbeitet, um das Königreich zu polieren. Lästige Kobolde wurden aus dem Bergfried vertrieben, müde Zahnräder wurden neu geschmiedet, und das Königreich läuft nun glatter und stärker denn je unter eurer Fahne. Schärft eure Klingen, edler Herrscher — neuer Ruhm erwartet euch!",
+      "genres": [
+        "Spiele",
+        "Unterhaltung",
+        "Simulation",
+        "Strategie"
       ],
-      "primaryGenreName": "Games",
-      "primaryGenreId": 6014,
+      "artistId": 553166917,
+      "artistName": "Goodgame Studio",
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "isVppDeviceBasedLicensingEnabled": true,
+      "releaseDate": "2013-02-26T13:45:24Z",
+      "sellerName": "Stillfront Germany GmbH",
       "trackId": 585661281,
       "trackName": "Empire Four Kingdoms",
-      "sellerName": "Stillfront Germany GmbH",
-      "isVppDeviceBasedLicensingEnabled": true,
       "currentVersionReleaseDate": "2026-07-07T09:17:56Z",
       "version": "4.136.43",
       "wrapperType": "software",
@@ -207,7 +197,17 @@
       "averageUserRating": 4.0811,
       "trackCensoredName": "Empire Four Kingdoms",
       "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
-      "releaseDate": "2013-02-26T13:45:24Z",
+      "primaryGenreName": "Games",
+      "primaryGenreId": 6014,
+      "minimumOsVersion": "15.0",
+      "genreIds": [
+        "6014",
+        "6016",
+        "7015",
+        "7017"
+      ],
+      "averageUserRatingForCurrentVersion": 4.0811,
+      "price": 0,
       "userRatingCount": 2762
     }
   ]
