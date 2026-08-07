@@ -2,16 +2,29 @@
   "resultCount": 1,
   "results": [
     {
-      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
-      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
-      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
-      "isGameCenterEnabled": true,
-      "advisories": [
-        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
-        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
-        "Häufig/stark ausgeprägt: Wettkämpfe",
-        "Lootboxen"
+      "screenshotUrls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/52/d6/1552d6c7-79c8-ac90-ec1f-7f83e2f71b47/1c1da55b-352c-40e2-af52-abefc975d7cf_0_main_title_image_1284x2778.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/18/6f/08186fb8-f355-875f-39de-f3efa1a90f14/ae21a8fd-8546-4278-8a82-0c7476aef5df_DE_1284x2778_1_build.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/75/4d/b3754deb-94c2-b7a9-12db-ee12e3cb27f0/b4fba258-703c-4b5b-a9fd-ff6f091a1c11_DE_1284x2778_2_rule.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/79/ca/cb79ca35-fb18-0f59-dbb8-9af801f4e895/73d761b4-7ba0-46dd-8844-b245609a3df2_DE_1284x2778_3_collaborate.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/cc/84/8ecc84a6-5559-b3d7-f8ef-ed5fa4d800d8/DE_1284x2778_4_fight.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/22/bd/5122bd5d-a079-9d91-d0e9-f8238ecfea4c/7fad7c9a-25dd-4953-8971-f2bfa07d82e4_DE_1284x2778_5_customize.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/92/bc/11/92bc1113-6bd5-2da2-ba05-97aa52465ee1/ac275f7c-65da-4f39-bfef-180db401de91_DE_1284x2778_6_strategize.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/73/35/5d7335d7-938a-47a4-ecef-eb72e32cc53d/DE_1284x2778_8_recruit.png/320x480bb.jpg"
       ],
+      "ipadScreenshotUrls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/f6/c0/dff6c090-d316-60ec-ce2f-2f6864d1e885/c654f5c7-b2ef-4805-b9aa-433c448964b2_0_main_title_image_2048x2732.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/2a/86/a22a86b0-1c15-40ee-e536-0f5e6aaa1c03/b598b4da-f81b-46f4-b2da-ba457c7729d3_DE_2048x2732_1_build.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/bf/b0/3bbfb0ee-1757-e946-8d3e-9e72c7dafe96/7f945149-240b-42e9-a57d-26211b2282d5_DE_2048x2732_2_rule.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/b6/7a/b4b67a84-c7fa-b7c5-b61c-6f7f5b936116/907de22b-ac94-4c3c-9d5c-914370247721_DE_2048x2732_3_collaborate.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/00/00/a3000004-d041-8201-37be-b8fa6dc14f41/DE_2048x2732_4_fight.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/2c/b7/8c2cb729-27c9-efad-6b6c-192bcbf1bc5f/72929d41-c206-4ada-8f7d-6fa07ad9ce51_DE_2048x2732_5_customize.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/f9/8a/2ef98aae-979c-a9b3-bd95-89f0b331c78d/9a3287a0-2c6b-443d-a1df-979802efae4a_DE_2048x2732_6_strategize.png/360x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/1b/ab/091bab23-741b-5399-db51-8325a22115a8/DE_2048x2732_8_recruit.png/360x480bb.jpg"
+      ],
+      "appletvScreenshotUrls": [],
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "isGameCenterEnabled": true,
       "supportedDevices": [
         "iPhone5s-iPhone5s",
         "iPadAir-iPadAir",
@@ -141,60 +154,20 @@
         "iPadAir13M4-iPadAir13M4",
         "iPadAir13M4Cellular-iPadAir13M4Cellular"
       ],
+      "advisories": [
+        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
+        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
+        "Häufig/stark ausgeprägt: Wettkämpfe",
+        "Lootboxen"
+      ],
       "kind": "software",
-      "screenshotUrls": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/52/d6/1552d6c7-79c8-ac90-ec1f-7f83e2f71b47/1c1da55b-352c-40e2-af52-abefc975d7cf_0_main_title_image_1284x2778.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/18/6f/08186fb8-f355-875f-39de-f3efa1a90f14/ae21a8fd-8546-4278-8a82-0c7476aef5df_DE_1284x2778_1_build.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b3/75/4d/b3754deb-94c2-b7a9-12db-ee12e3cb27f0/b4fba258-703c-4b5b-a9fd-ff6f091a1c11_DE_1284x2778_2_rule.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/79/ca/cb79ca35-fb18-0f59-dbb8-9af801f4e895/73d761b4-7ba0-46dd-8844-b245609a3df2_DE_1284x2778_3_collaborate.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/cc/84/8ecc84a6-5559-b3d7-f8ef-ed5fa4d800d8/DE_1284x2778_4_fight.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/22/bd/5122bd5d-a079-9d91-d0e9-f8238ecfea4c/7fad7c9a-25dd-4953-8971-f2bfa07d82e4_DE_1284x2778_5_customize.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/92/bc/11/92bc1113-6bd5-2da2-ba05-97aa52465ee1/ac275f7c-65da-4f39-bfef-180db401de91_DE_1284x2778_6_strategize.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/73/35/5d7335d7-938a-47a4-ecef-eb72e32cc53d/DE_1284x2778_8_recruit.png/320x480bb.jpg"
-      ],
-      "ipadScreenshotUrls": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/f6/c0/dff6c090-d316-60ec-ce2f-2f6864d1e885/c654f5c7-b2ef-4805-b9aa-433c448964b2_0_main_title_image_2048x2732.png/360x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/2a/86/a22a86b0-1c15-40ee-e536-0f5e6aaa1c03/b598b4da-f81b-46f4-b2da-ba457c7729d3_DE_2048x2732_1_build.png/360x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/bf/b0/3bbfb0ee-1757-e946-8d3e-9e72c7dafe96/7f945149-240b-42e9-a57d-26211b2282d5_DE_2048x2732_2_rule.png/360x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b4/b6/7a/b4b67a84-c7fa-b7c5-b61c-6f7f5b936116/907de22b-ac94-4c3c-9d5c-914370247721_DE_2048x2732_3_collaborate.png/360x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/00/00/a3000004-d041-8201-37be-b8fa6dc14f41/DE_2048x2732_4_fight.png/360x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/2c/b7/8c2cb729-27c9-efad-6b6c-192bcbf1bc5f/72929d41-c206-4ada-8f7d-6fa07ad9ce51_DE_2048x2732_5_customize.png/360x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2e/f9/8a/2ef98aae-979c-a9b3-bd95-89f0b331c78d/9a3287a0-2c6b-443d-a1df-979802efae4a_DE_2048x2732_6_strategize.png/360x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/1b/ab/091bab23-741b-5399-db51-8325a22115a8/DE_2048x2732_8_recruit.png/360x480bb.jpg"
-      ],
-      "appletvScreenshotUrls": [],
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
       "features": [
         "gameCenter",
         "iosUniversal"
       ],
-      "averageUserRating": 4.08279,
-      "contentAdvisoryRating": "12+",
-      "sellerName": "Stillfront Germany GmbH",
-      "price": 0,
-      "artistId": 553166917,
-      "artistName": "Goodgame Studio",
-      "genres": [
-        "Spiele",
-        "Unterhaltung",
-        "Simulation",
-        "Strategie"
-      ],
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
-      "genreIds": [
-        "6014",
-        "6016",
-        "7015",
-        "7017"
-      ],
-      "trackId": 585661281,
-      "trackName": "Empire Four Kingdoms",
-      "currentVersionReleaseDate": "2026-07-29T11:37:46Z",
-      "releaseNotes": "Hört, Herren und Damen! Der Riss-Raid antwortet endlich auf eure Befehle. Eure Allianz kann nun wählen, welchen mächtigen Boss ihr bekämpft, jeder befreite Schrecken steht bereit für die Herausforderung. Sammelt eure Anführer, wägt euren Feind ab und marschiert als eins. Das Reich wurde gepflegt und seine Risse versiegelt. Schärft eure Klingen und wählt eure Schlacht - Ruhm wartet auf die Tapferen!",
-      "version": "4.137.31",
-      "wrapperType": "software",
-      "currency": "EUR",
-      "description": "Erschaffe ein mächtiges Imperium und kämpfe in epischen Schlachten gegen Millionen von Spielern!\nAls Burgherr und König errichtest Du eine mittelalterliche Festung und bestimmst über die Geschicke Deines Königreichs in diesem preisgekrönten mittelalterlichen MMO-Strategiespiel!\n\nSetze Deine Strategie ein, um Deine Feinde zu überlisten!\nSchalte mächtige Generäle frei und nutze ihre Talente zu Deinem Vorteil. Es geht nicht darum, wer die größte Armee hat, sondern wer jeden seiner Schritte auf die cleverste Weise planen kann. Jeder General hat seine ganz eigenen Talente, die Dir im Kampf gegen Deine Gegner einen entscheidenden Vorteil bringen können, aber nur wenn Du sie weise einsetzt. Plane deine Strategie ganz genau und dann wirst Du sehen, ob Du clever genug bist, Deine Feinde zu überlisten!\n\nErobere neue Länder in vier aufregenden Königreichen\nErstelle eine Armee von tapferen Rittern, rüste Deine gnadenlosen Truppen mit tödlichen Waffen aus, verbessere ihre Qualität und schick sie in die Schlacht, um unter Deiner Fahne zu kämpfen! Natürlich braucht jedes große Imperium auch eine starke Verteidigung – wähle die richtige Strategie, um die Armee Deines Feindes in die Flucht zu schlagen!\n\nEhre, Ruhm und Reichtum!\nGewinne Belohnungen, indem Du im Kampf Ehre und Ruhm erlangst, und steigere Deinen Reichtum, indem Du Dein Königreich weise verwaltest. Baue Deine Festung auf, damit sie die mächtigste im ganzen Land wird. Produziere Rohstoffe und handle mit anderen Spielern, um Dein Reich über mehrere Königreiche zu erweitern. Mehr Land bedeutet mehr Untertanen – und mehr Gold für Dich!\n\nSchließe mächtige diplomatische Allianzen\nSchließe Dich mit Deinen Freunden und anderen Burgherren zusammen, um Dich gegen Deine Feinde zu stellen und gemeinsam neue Länder zu erobern! Unterstützt Euch mit Rohstoffen und Truppen oder helft Euch nach einem Angriff gegenseitig beim Wiederaufbau. Gemeinsam sind wir stark!\n\nDieses realistische mittelalterliche Strategie-MMO versetzt Dich zurück in eine Zeit, in der Macht alles war und nur der Stärkste überlebte. Zeig, dass Du das Zeug dazu hast, der mächtigste und ruhmreichste Burgherr weit und breit zu sein!\n\n* Erschaffe Deine Zivilisation und werde König in diesem mittelalterlichen Strategiespiel\n* Kämpfe in epischen Kriegen gegen unzählige andere Spieler auf einer interaktiven Weltkarte\n* Baue eine majestätische Burg, die selbst Deinen stärksten Gegnern standhält\n* Stelle eine Armee aus Rittern, Bogenschützen, Schwertkämpfern und mehr auf\n* Bilde eine unschlagbare Allianz mit Deinen Freunden und anderen mächtigen Spielern\n* Erzeuge und handle mit Rohstoffen, um mehr als 60 verschiedene Gebäude zu bauen\n* Entdecke Empire: Four Kingdoms und werde ein wahrer Held und eine Legende!\n* Regelmäßige Updates mit neuen Inhalten und Herausforderungen\n\nDatenschutz, AGB und Impressum: https://policies.stillfront.com/\nDiese App ist kostenlos spielbar, erfordert eine Internetverbindung und bietet optionale In-App-Käufe.",
+      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
       "sellerUrl": "https://www.goodgamestudios.com/",
       "languageCodesISO2A": [
         "CS",
@@ -219,13 +192,40 @@
       "userRatingCountForCurrentVersion": 2766,
       "trackContentRating": "12+",
       "averageUserRatingForCurrentVersion": 4.08279,
-      "trackCensoredName": "Empire Four Kingdoms",
-      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
       "minimumOsVersion": "15.0",
+      "artistId": 553166917,
+      "artistName": "Goodgame Studio",
+      "genres": [
+        "Spiele",
+        "Unterhaltung",
+        "Simulation",
+        "Strategie"
+      ],
+      "price": 0,
+      "releaseDate": "2013-02-26T13:45:24Z",
+      "currentVersionReleaseDate": "2026-07-29T11:37:46Z",
+      "trackId": 585661281,
+      "trackName": "Empire Four Kingdoms",
+      "genreIds": [
+        "6014",
+        "6016",
+        "7015",
+        "7017"
+      ],
       "isVppDeviceBasedLicensingEnabled": true,
+      "sellerName": "Stillfront Germany GmbH",
       "primaryGenreName": "Games",
       "primaryGenreId": 6014,
-      "releaseDate": "2013-02-26T13:45:24Z",
+      "releaseNotes": "Hört, Herren und Damen! Der Riss-Raid antwortet endlich auf eure Befehle. Eure Allianz kann nun wählen, welchen mächtigen Boss ihr bekämpft, jeder befreite Schrecken steht bereit für die Herausforderung. Sammelt eure Anführer, wägt euren Feind ab und marschiert als eins. Das Reich wurde gepflegt und seine Risse versiegelt. Schärft eure Klingen und wählt eure Schlacht - Ruhm wartet auf die Tapferen!",
+      "version": "4.137.31",
+      "wrapperType": "software",
+      "currency": "EUR",
+      "description": "Erschaffe ein mächtiges Imperium und kämpfe in epischen Schlachten gegen Millionen von Spielern!\nAls Burgherr und König errichtest Du eine mittelalterliche Festung und bestimmst über die Geschicke Deines Königreichs in diesem preisgekrönten mittelalterlichen MMO-Strategiespiel!\n\nSetze Deine Strategie ein, um Deine Feinde zu überlisten!\nSchalte mächtige Generäle frei und nutze ihre Talente zu Deinem Vorteil. Es geht nicht darum, wer die größte Armee hat, sondern wer jeden seiner Schritte auf die cleverste Weise planen kann. Jeder General hat seine ganz eigenen Talente, die Dir im Kampf gegen Deine Gegner einen entscheidenden Vorteil bringen können, aber nur wenn Du sie weise einsetzt. Plane deine Strategie ganz genau und dann wirst Du sehen, ob Du clever genug bist, Deine Feinde zu überlisten!\n\nErobere neue Länder in vier aufregenden Königreichen\nErstelle eine Armee von tapferen Rittern, rüste Deine gnadenlosen Truppen mit tödlichen Waffen aus, verbessere ihre Qualität und schick sie in die Schlacht, um unter Deiner Fahne zu kämpfen! Natürlich braucht jedes große Imperium auch eine starke Verteidigung – wähle die richtige Strategie, um die Armee Deines Feindes in die Flucht zu schlagen!\n\nEhre, Ruhm und Reichtum!\nGewinne Belohnungen, indem Du im Kampf Ehre und Ruhm erlangst, und steigere Deinen Reichtum, indem Du Dein Königreich weise verwaltest. Baue Deine Festung auf, damit sie die mächtigste im ganzen Land wird. Produziere Rohstoffe und handle mit anderen Spielern, um Dein Reich über mehrere Königreiche zu erweitern. Mehr Land bedeutet mehr Untertanen – und mehr Gold für Dich!\n\nSchließe mächtige diplomatische Allianzen\nSchließe Dich mit Deinen Freunden und anderen Burgherren zusammen, um Dich gegen Deine Feinde zu stellen und gemeinsam neue Länder zu erobern! Unterstützt Euch mit Rohstoffen und Truppen oder helft Euch nach einem Angriff gegenseitig beim Wiederaufbau. Gemeinsam sind wir stark!\n\nDieses realistische mittelalterliche Strategie-MMO versetzt Dich zurück in eine Zeit, in der Macht alles war und nur der Stärkste überlebte. Zeig, dass Du das Zeug dazu hast, der mächtigste und ruhmreichste Burgherr weit und breit zu sein!\n\n* Erschaffe Deine Zivilisation und werde König in diesem mittelalterlichen Strategiespiel\n* Kämpfe in epischen Kriegen gegen unzählige andere Spieler auf einer interaktiven Weltkarte\n* Baue eine majestätische Burg, die selbst Deinen stärksten Gegnern standhält\n* Stelle eine Armee aus Rittern, Bogenschützen, Schwertkämpfern und mehr auf\n* Bilde eine unschlagbare Allianz mit Deinen Freunden und anderen mächtigen Spielern\n* Erzeuge und handle mit Rohstoffen, um mehr als 60 verschiedene Gebäude zu bauen\n* Entdecke Empire: Four Kingdoms und werde ein wahrer Held und eine Legende!\n* Regelmäßige Updates mit neuen Inhalten und Herausforderungen\n\nDatenschutz, AGB und Impressum: https://policies.stillfront.com/\nDiese App ist kostenlos spielbar, erfordert eine Internetverbindung und bietet optionale In-App-Käufe.",
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "averageUserRating": 4.08279,
+      "trackCensoredName": "Empire Four Kingdoms",
+      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
+      "contentAdvisoryRating": "12+",
       "userRatingCount": 2766
     }
   ]
