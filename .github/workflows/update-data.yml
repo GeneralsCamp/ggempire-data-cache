@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Update data files
+      - name: Update data files and shared assets
         run: npm run update
 
       - name: Commit changes if needed
@@ -32,7 +32,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add package.json package-lock.json public/data/
+          git add package.json package-lock.json public/data/ public/assets/
 
           if git diff --cached --quiet; then
             echo "No changes detected."

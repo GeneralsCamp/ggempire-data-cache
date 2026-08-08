@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "update": "node scripts/update-data.mjs"
+    "update": "node scripts/update-data.mjs && node scripts/update-assets.mjs",
+    "update:data": "node scripts/update-data.mjs",
+    "update:assets": "node scripts/update-assets.mjs",
+    "test:assets": "node scripts/update-assets.test.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.2.5",
