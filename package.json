@@ -4,10 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "update": "node scripts/update-data.mjs && node scripts/update-assets.mjs",
+    "update": "node scripts/update-data.mjs && node scripts/update-assets.mjs && node scripts/update-events.mjs",
     "update:data": "node scripts/update-data.mjs",
     "update:assets": "node scripts/update-assets.mjs",
-    "test:assets": "node scripts/update-assets.test.mjs"
+    "update:events": "node scripts/update-events.mjs",
+    "test:assets": "node scripts/update-assets.test.mjs",
+    "test:events": "node scripts/update-events.test.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.2.5",

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "empire": {
+    "sourceUrl": "https://communityhub.goodgamestudios.com/newshubempire/",
+    "events": [
+      {
+        "title": "Samurai Invasion",
+        "dates": [
+          "31/07 - 01/08",
+          "07/08 - 08/08",
+          "14/08 - 15/08",
+          "21/08 - 22/08",
+          "28/08 - 29/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/samuraiinvasion.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Nomad Invasion",
+        "dates": [
+          "25/07 - 28/07",
+          "01/08 - 04/08",
+          "08/08 - 11/08",
+          "15/08 - 18/08",
+          "22/08 - 25/08",
+          "29/08 - 01/09"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/nomadinvasion.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Bloodcrow Invasion",
+        "dates": [
+          "04/08 - 07/08",
+          "18/08 - 21/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bloodcrow.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "War of the Realms",
+        "dates": [
+          "11/08 - 14/08",
+          "25/08 - 28/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/waroftherealms.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Berimond",
+        "dates": [
+          "04/08 - 07/08",
+          "25/08 - 28/08",
+          "15/08 - 18/08"
+        ],
+        "dateGroups": [
+          {
+            "label": "Kingdom",
+            "dates": [
+              "04/08 - 07/08",
+              "25/08 - 28/08"
+            ]
+          },
+          {
+            "label": "Invasion",
+            "dates": [
+              "15/08 - 18/08"
+            ]
+          }
+        ],
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/berimond.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "The Bladecoast",
+        "dates": [
+          "12/08 - 19/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bladecoast.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Rift Raid",
+        "dates": [
+          "04/08 - 11/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/riftraid.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "The Grand Tournament",
+        "dates": [
+          "18/08 - 25/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/grandtournament.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Beyond the Horizon",
+        "dates": [
+          "30/07 - 03/08",
+          "13/08 - 17/08",
+          "27/08 - 31/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/beyondthehorizon.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Outer Realms",
+        "dates": [
+          "03/08 - 06/08",
+          "06/08 - 10/08",
+          "10/08 - 13/08",
+          "17/08 - 20/08",
+          "20/08 - 24/08",
+          "24/08 - 27/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/outerrealms.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "The Imperial Patronage",
+        "dates": [
+          "22/08 - 29/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/patronage.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "LTPE",
+        "dates": [
+          "17/07 - 15/08",
+          "15/08 - 12/09"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/ltpe.webp?fit=127%2C114&ssl=1"
+      }
+    ]
+  },
+  "e4k": {
+    "sourceUrl": "https://communityhub.goodgamestudios.com/newshube4k/",
+    "events": [
+      {
+        "title": "Samurai Invasion",
+        "dates": [
+          "31/07 - 01/08",
+          "07/08 - 08/08",
+          "14/08 - 15/08",
+          "21/08 - 22/08",
+          "28/08 - 29/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/samuraiinvasion.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Nomad Invasion",
+        "dates": [
+          "25/07 - 28/07",
+          "01/08 - 04/08",
+          "08/08 - 11/08",
+          "15/08 - 18/08",
+          "22/08 - 25/08",
+          "29/08 - 01/09"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/nomadinvasion.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Bloodcrow Invasion",
+        "dates": [
+          "04/08 - 07/08",
+          "18/08 - 21/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bloodcrow.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "War of the Realms",
+        "dates": [
+          "11/08 - 14/08",
+          "25/08 - 28/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/waroftherealms.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Berimond",
+        "dates": [
+          "04/08 - 07/08",
+          "25/08 - 28/08"
+        ],
+        "dateGroups": [
+          {
+            "label": "Kingdom",
+            "dates": [
+              "04/08 - 07/08",
+              "25/08 - 28/08"
+            ]
+          }
+        ],
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/berimond.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "The Bladecoast",
+        "dates": [
+          "12/08 - 19/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bladecoast.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Rift Raid",
+        "dates": [
+          "04/08 - 11/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/riftraid.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "The Grand Tournament",
+        "dates": [
+          "18/08 - 25/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/grandtournament.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Beyond the Horizon",
+        "dates": [
+          "30/07 - 03/08",
+          "13/08 - 17/08",
+          "27/08 - 31/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/beyondthehorizon.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "Outer Realms",
+        "dates": [
+          "03/08 - 06/08",
+          "06/08 - 10/08",
+          "10/08 - 13/08",
+          "17/08 - 20/08",
+          "20/08 - 24/08",
+          "24/08 - 27/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/outerrealms.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "The Imperial Patronage",
+        "dates": [
+          "22/08 - 29/08"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/patronage.webp?fit=127%2C114&ssl=1"
+      },
+      {
+        "title": "LTPE",
+        "dates": [
+          "17/07 - 15/08",
+          "15/08 - 12/09"
+        ],
+        "dateGroups": null,
+        "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/ltpe.webp?fit=127%2C114&ssl=1"
+      }
+    ]
+  }
+}

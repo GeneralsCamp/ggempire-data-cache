@@ -24,8 +24,14 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Update data files and shared assets
-        run: npm run update
+      - name: Update data files
+        run: npm run update:data
+
+      - name: Update shared assets
+        run: npm run update:assets
+
+      - name: Update event plans
+        run: npm run update:events
 
       - name: Commit changes if needed
         run: |

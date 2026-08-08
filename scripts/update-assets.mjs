@@ -48,6 +48,14 @@ async function fileExists(filePath) {
     return existsSync(filePath);
 }
 
+async function writeTextIfChanged(filePath, content) {
+    if (existsSync(filePath) && await readFile(filePath, "utf8") === content) {
+        return false;
+    }
+    await writeFile(filePath, content, "utf8");
+    return true;
+}
+
 async function fetchWithRetry(url, fetchImpl) {
     let lastError;
     for (let attempt = 0; attempt <= RETRIES; attempt += 1) {
@@ -159,18 +167,33 @@ export async function updateAssets({
 } = {}) {
     const assets = collectLatestAssets(await readFile(dllPath, "utf8"));
     const summary = { total: assets.length, updated: 0, skipped: 0, failed: 0 };
+    const readyAssets = new Set();
     console.log(`Asset families in DLL: ${assets.length}`);
 
     await mapWithConcurrency(assets, CONCURRENCY, async (asset) => {
         try {
             const outcome = await downloadAndReplace(asset, { outputDir, assetBaseUrl, fetchImpl });
             summary[outcome] += 1;
+            readyAssets.add(`${asset.family}--${asset.version}`);
             console.log(`${outcome === "skipped" ? "Skip" : "Cached"}: ${asset.family}--${asset.version}`);
         } catch (error) {
             summary.failed += 1;
             console.error(`Asset failed (previous version kept): ${asset.family}--${asset.version} — ${error.message}`);
         }
     });
+
+    const manifest = {
+        version: 1,
+        assets: assets
+            .filter((asset) => readyAssets.has(`${asset.family}--${asset.version}`))
+            .map((asset) => ({ path: `${asset.family}--${asset.version}` }))
+    };
+    const manifestPath = path.join(outputDir, "manifest.json");
+    const manifestChanged = await writeTextIfChanged(
+        manifestPath,
+        JSON.stringify(manifest) + "\n"
+    );
+    if (manifestChanged) console.log(`Updated asset manifest: ${manifestPath}`);
 
     console.log(`Assets complete: ${summary.updated} updated, ${summary.skipped} unchanged, ${summary.failed} failed.`);
     return summary;

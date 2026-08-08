@@ -29,6 +29,10 @@ const run = async (dll) => {
 assert.deepEqual(collectLatestAssets("itemassets/A/Foo--100 itemassets/A/Foo--200"), [{ family: "A/Foo", version: "200" }]);
 setFamily("A/Foo", "100");
 assert.equal((await run("itemassets/A/Foo--100")).updated, 1, "first download");
+assert.deepEqual(JSON.parse(await readFile(path.join(outputDir, "manifest.json"), "utf8")), {
+    version: 1,
+    assets: [{ path: "A/Foo--100" }]
+}, "asset manifest contains only complete asset families");
 const afterFirst = requests;
 assert.equal((await run("itemassets/A/Foo--100")).skipped, 1, "unchanged version is skipped");
 assert.equal(requests, afterFirst, "skip does not request files");
