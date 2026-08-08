@@ -3,9 +3,6 @@
   "results": [
     {
       "isGameCenterEnabled": true,
-      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
-      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
-      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
       "features": [
         "gameCenter",
         "iosUniversal"
@@ -168,23 +165,30 @@
       ],
       "appletvScreenshotUrls": [],
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
-      "trackCensoredName": "Empire Four Kingdoms",
-      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
-      "contentAdvisoryRating": "12+",
-      "averageUserRating": 4.08279,
-      "artistName": "Goodgame Studio",
+      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/39/c6/7b39c6e8-09d1-9905-964b-00278014fa49/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
       "artistId": 553166917,
-      "trackId": 585661281,
-      "trackName": "Empire Four Kingdoms",
+      "artistName": "Goodgame Studio",
+      "genres": [
+        "Spiele",
+        "Unterhaltung",
+        "Simulation",
+        "Strategie"
+      ],
+      "price": 0,
       "primaryGenreName": "Games",
       "primaryGenreId": 6014,
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
       "genreIds": [
         "6014",
         "6016",
         "7015",
         "7017"
       ],
+      "trackId": 585661281,
+      "trackName": "Empire Four Kingdoms",
+      "sellerName": "Stillfront Germany GmbH",
       "isVppDeviceBasedLicensingEnabled": true,
       "currentVersionReleaseDate": "2026-07-29T11:37:46Z",
       "releaseNotes": "Hört, Herren und Damen! Der Riss-Raid antwortet endlich auf eure Befehle. Eure Allianz kann nun wählen, welchen mächtigen Boss ihr bekämpft, jeder befreite Schrecken steht bereit für die Herausforderung. Sammelt eure Anführer, wägt euren Feind ab und marschiert als eins. Das Reich wurde gepflegt und seine Risse versiegelt. Schärft eure Klingen und wählt eure Schlacht - Ruhm wartet auf die Tapferen!",
@@ -212,19 +216,15 @@
       ],
       "fileSizeBytes": "277765120",
       "formattedPrice": "Gratis",
-      "userRatingCountForCurrentVersion": 2766,
-      "trackContentRating": "12+",
       "averageUserRatingForCurrentVersion": 4.08279,
       "sellerUrl": "https://www.goodgamestudios.com/",
+      "userRatingCountForCurrentVersion": 2766,
+      "trackContentRating": "12+",
+      "trackCensoredName": "Empire Four Kingdoms",
+      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
+      "contentAdvisoryRating": "12+",
+      "averageUserRating": 4.08279,
       "minimumOsVersion": "15.0",
-      "sellerName": "Stillfront Germany GmbH",
-      "price": 0,
-      "genres": [
-        "Spiele",
-        "Unterhaltung",
-        "Simulation",
-        "Strategie"
-      ],
       "releaseDate": "2013-02-26T13:45:24Z",
       "userRatingCount": 2766
     }
