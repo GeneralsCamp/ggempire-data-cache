@@ -7,7 +7,7 @@ import { XMLParser } from "fast-xml-parser";
 const OUT_DIR = "public/data";
 const MAX_ITEM_HISTORY = 8;
 
-const FORCE_LOADER = 4139023;
+const FORCE_LOADER = 4137031; 
 
 const E4K_LOADER_BASES = [
     "https://media-s3.goodgamestudios.com/loader",
