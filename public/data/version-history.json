@@ -1,13 +1,6 @@
 {
   "empireItems": [
     {
-      "version": "775.01",
-      "addedAt": "2026-06-08T12:09:53.811Z",
-      "sourceUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v775.01.json",
-      "file": "/data/empire/items/items_775_01.json",
-      "latestFile": "/data/empire/items_latest.json"
-    },
-    {
       "version": "775.02",
       "addedAt": "2026-06-11T11:20:05.421Z",
       "sourceUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v775.02.json",
@@ -54,6 +47,13 @@
       "addedAt": "2026-08-11T09:14:11.935Z",
       "sourceUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v782.04.json",
       "file": "/data/empire/items/items_782_04.json",
+      "latestFile": "/data/empire/items_latest.json"
+    },
+    {
+      "version": "782.06",
+      "addedAt": "2026-08-11T13:43:34.329Z",
+      "sourceUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v782.06.json",
+      "file": "/data/empire/items/items_782_06.json",
       "latestFile": "/data/empire/items_latest.json"
     }
   ],
