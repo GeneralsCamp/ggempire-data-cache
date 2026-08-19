@@ -61,18 +61,6 @@
     {
       "appVersion": "4135017",
       "appStoreVersion": "4.134.27",
-      "itemVersion": "776.RC.03",
-      "addedAt": "2026-06-18T16:41:05.940Z",
-      "versionsSourceUrl": "https://media.goodgamestudios.com/loader/empirefourkingdoms/4135017/versions.json",
-      "sourceUrl": "https://media.goodgamestudios.com/loader/empirefourkingdoms/4135017/itemsXML/items_776_RC_03.ggs",
-      "file": "/data/e4k/items/items_4135017_776_RC_03.json",
-      "rawFile": "/data/e4k/items/raw/items_4135017_776_RC_03.raw.json",
-      "latestFile": "/data/e4k/items_latest.json",
-      "rawLatestFile": "/data/e4k/items_latest.raw.json"
-    },
-    {
-      "appVersion": "4135017",
-      "appStoreVersion": "4.134.27",
       "itemVersion": "776.RC.05",
       "addedAt": "2026-06-23T16:43:50.226Z",
       "versionsSourceUrl": "https://media.goodgamestudios.com/loader/empirefourkingdoms/4135017/versions.json",
@@ -151,6 +139,18 @@
       "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4139025/itemsXML/items_782_RC_08.ggs",
       "file": "/data/e4k/items/items_4139025_782_RC_08.json",
       "rawFile": "/data/e4k/items/raw/items_4139025_782_RC_08.raw.json",
+      "latestFile": "/data/e4k/items_latest.json",
+      "rawLatestFile": "/data/e4k/items_latest.raw.json"
+    },
+    {
+      "appVersion": 4140013,
+      "appStoreVersion": "4.139.25",
+      "itemVersion": "783.RC.01",
+      "addedAt": "2026-08-19T09:49:17.571Z",
+      "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4140013/versions.json",
+      "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4140013/itemsXML/items_783_RC_01.ggs",
+      "file": "/data/e4k/items/items_4140013_783_RC_01.json",
+      "rawFile": "/data/e4k/items/raw/items_4140013_783_RC_01.raw.json",
       "latestFile": "/data/e4k/items_latest.json",
       "rawLatestFile": "/data/e4k/items_latest.raw.json"
     }
