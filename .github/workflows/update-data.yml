@@ -38,7 +38,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add package.json package-lock.json public/data/ public/assets/
+          git add package.json package-lock.json public/data/ public/assets/ public/events/
 
           if git diff --cached --quiet; then
             echo "No changes detected."
