@@ -1,0 +1,58 @@
+name: Discover E4K test loader
+
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: data-cache-writes
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check requests xmltodict
+
+      - name: Discover latest test loader
+        run: python scripts/discover-e4k-loader.py --output config/e4k-loader.json
+
+      - name: Check whether a new loader was found
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet -- config/e4k-loader.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new E4K loader found."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit discovered loader
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add config/e4k-loader.json
+          git commit -m "Update discovered E4K loader"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Start data cache update
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run update-data.yml --ref "$GITHUB_REF_NAME"

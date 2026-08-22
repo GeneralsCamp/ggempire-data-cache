@@ -6,8 +6,7 @@ import { XMLParser } from "fast-xml-parser";
 
 const OUT_DIR = "public/data";
 const MAX_ITEM_HISTORY = 8;
-
-const FORCE_LOADER = 4140013;
+const E4K_LOADER_CONFIG_PATH = "config/e4k-loader.json";
 
 const E4K_LOADER_BASES = [
     "https://media-s3.goodgamestudios.com/loader",
@@ -611,34 +610,60 @@ async function updateE4k({ history, manifest }) {
         loaderVersion: apiLoaderVersion
     } = parseE4kLoaderVersionFromAppStore(appstoreJson);
 
-    const preferredLoaderVersion =
-        FORCE_LOADER && BigInt(apiLoaderVersion) > BigInt(FORCE_LOADER)
-            ? apiLoaderVersion
-            : (FORCE_LOADER || apiLoaderVersion);
+    const loaderConfig =
+        await readJsonIfExists(E4K_LOADER_CONFIG_PATH, {});
 
-    let loaderVersion = preferredLoaderVersion;
+    const configuredLoaderVersion =
+        /^\d+$/.test(String(loaderConfig.loaderVersion || ""))
+            ? String(loaderConfig.loaderVersion)
+            : null;
+
+    const preferredLoaderVersion =
+        configuredLoaderVersion &&
+        BigInt(configuredLoaderVersion) > BigInt(apiLoaderVersion)
+            ? configuredLoaderVersion
+            : apiLoaderVersion;
+
+    if (preferredLoaderVersion !== apiLoaderVersion) {
+        console.log(
+            `Using discovered E4K loader ${preferredLoaderVersion} ` +
+            `(App Store loader: ${apiLoaderVersion}).`
+        );
+    }
+
+    let loaderVersion;
     let loaderBase;
     let versionsUrl;
 
     let versionsText;
 
-    for (const candidateBase of E4K_LOADER_BASES) {
-        const candidateUrl =
-            `${candidateBase}/${loaderVersion}/versions.json`;
+    const loaderCandidates =
+        [...new Set([preferredLoaderVersion, apiLoaderVersion])];
 
-        try {
-            console.log(`Trying E4K loader: ${candidateUrl}`);
-            versionsText = await fetchText(candidateUrl);
-            loaderBase = candidateBase;
-            versionsUrl = candidateUrl;
-            break;
-        } catch (error) {
-            console.warn(`Loader request failed: ${candidateUrl}`);
+    for (const candidateLoader of loaderCandidates) {
+        for (const candidateBase of E4K_LOADER_BASES) {
+            const candidateUrl =
+                `${candidateBase}/${candidateLoader}/versions.json`;
+
+            try {
+                console.log(`Trying E4K loader: ${candidateUrl}`);
+                versionsText = await fetchText(candidateUrl);
+                loaderVersion = candidateLoader;
+                loaderBase = candidateBase;
+                versionsUrl = candidateUrl;
+                break;
+            } catch (error) {
+                console.warn(`Loader request failed: ${candidateUrl}`);
+            }
         }
+
+        if (versionsText) break;
     }
 
     if (!versionsText) {
-        throw new Error(`E4K loader ${loaderVersion} was not found on either CDN.`);
+        throw new Error(
+            `No usable E4K loader was found (${loaderCandidates.join(", ")}).`
+        );
     }
 
     const versionsJson =
@@ -794,6 +819,10 @@ async function updateE4k({ history, manifest }) {
     manifest.e4k = {
         appVersion: loaderVersion,
         appStoreVersion,
+        appStoreLoaderVersion: apiLoaderVersion,
+        loaderSource: loaderVersion === apiLoaderVersion
+            ? "app-store"
+            : "discovery-config",
         itemVersion,
         appstoreUrl: dataPath(appstoreRel),
         versionsUrl: dataPath(versionsRel),
