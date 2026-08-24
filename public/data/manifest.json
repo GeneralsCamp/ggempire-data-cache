@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T14:04:11.382Z",
+  "updatedAt": "2026-08-24T15:01:59.557Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -35,7 +35,7 @@
     "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v783.01.json"
   },
   "language": {
-    "version": "4324",
+    "version": "4325",
     "metadataUrl": "/data/lang/metadata.json",
     "available": {
       "en": "/data/lang/en.json",
@@ -67,9 +67,9 @@
   },
   "e4k": {
     "appVersion": "4140013",
-    "appStoreVersion": "4.139.25",
-    "appStoreLoaderVersion": "4139025",
-    "loaderSource": "discovery-config",
+    "appStoreVersion": "4.140.13",
+    "appStoreLoaderVersion": "4140013",
+    "loaderSource": "app-store",
     "itemVersion": "783.RC.01",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/e4k/versions.json",
