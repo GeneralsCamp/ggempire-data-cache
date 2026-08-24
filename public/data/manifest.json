@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T17:47:27.050Z",
+  "updatedAt": "2026-08-24T19:00:28.094Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -67,9 +67,9 @@
   },
   "e4k": {
     "appVersion": "4140013",
-    "appStoreVersion": "4.139.25",
-    "appStoreLoaderVersion": "4139025",
-    "loaderSource": "discovery-config",
+    "appStoreVersion": "4.140.13",
+    "appStoreLoaderVersion": "4140013",
+    "loaderSource": "app-store",
     "itemVersion": "783.RC.01",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/e4k/versions.json",
