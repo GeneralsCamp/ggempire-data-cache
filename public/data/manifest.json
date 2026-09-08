@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T09:43:33.734Z",
+  "updatedAt": "2026-09-08T13:10:12.590Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -28,11 +28,11 @@
     "tr"
   ],
   "empire": {
-    "itemVersion": "785.02",
+    "itemVersion": "785.03",
     "itemVersionUrl": "/data/empire/ItemsVersion.properties",
     "itemsUrl": "/data/empire/items_latest.json",
-    "archivedItemsUrl": "/data/empire/items/items_785_02.json",
-    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v785.02.json"
+    "archivedItemsUrl": "/data/empire/items/items_785_03.json",
+    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v785.03.json"
   },
   "language": {
     "version": "4341",
@@ -67,26 +67,26 @@
   },
   "e4k": {
     "appVersion": "4141029",
-    "appStoreVersion": "4.140.13",
-    "appStoreLoaderVersion": "4140013",
-    "loaderSource": "discovery-config",
-    "itemVersion": "785.RC.02",
+    "appStoreVersion": "4.141.29",
+    "appStoreLoaderVersion": "4141029",
+    "loaderSource": "app-store",
+    "itemVersion": "785.RC.03",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/e4k/versions.json",
     "itemsUrl": "/data/e4k/items_latest.json",
     "rawItemsUrl": "/data/e4k/items_latest.raw.json",
-    "archivedItemsUrl": "/data/e4k/items/items_4141029_785_RC_02.json",
-    "archivedRawItemsUrl": "/data/e4k/items/raw/items_4141029_785_RC_02.raw.json",
+    "archivedItemsUrl": "/data/e4k/items/items_4141029_785_RC_03.json",
+    "archivedRawItemsUrl": "/data/e4k/items/raw/items_4141029_785_RC_03.raw.json",
     "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4141029/versions.json",
-    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4141029/itemsXML/items_785_RC_02.ggs"
+    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4141029/itemsXML/items_785_RC_03.ggs"
   },
   "empireDll": {
     "available": true,
-    "version": "5a150299a219dc0c6a9b",
+    "version": "6644f9217d73e8ce169d",
     "source": "empire-index-preload",
     "versionUrl": "/data/empire/dll/version.json",
     "dllUrl": "/data/empire/dll/ggs.dll.latest.js",
     "originalIndexUrl": "https://empire-html5.goodgamestudios.com/default/index.html",
-    "originalDllUrl": "https://empire-html5.goodgamestudios.com/default/dll/ggs.dll.5a150299a219dc0c6a9b.js"
+    "originalDllUrl": "https://empire-html5.goodgamestudios.com/default/dll/ggs.dll.6644f9217d73e8ce169d.js"
   }
 }
