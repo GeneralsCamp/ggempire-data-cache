@@ -539,14 +539,15 @@ async function updateLanguages({ manifest }) {
     const failed = [];
 
     for (const langCode of LANGUAGES) {
+        files[langCode] = dataPath(`lang/${langCode}.json`);
+    }
+
+    async function updateLanguage(langCode) {
         const latestRel =
             `lang/${langCode}.json`;
 
         const latestPath =
             outputPath(latestRel);
-
-        files[langCode] =
-            dataPath(latestRel);
 
         const langUrl =
             `${LANGUAGE_BASE_URL}/12@${langVersion}/${langCode}/*`;
@@ -559,7 +560,7 @@ async function updateLanguages({ manifest }) {
 
             JSON.parse(langText);
 
-            await writeTextIfChanged(
+            return await writeTextIfChanged(
                 latestPath,
                 langText
             );
@@ -576,7 +577,28 @@ async function updateLanguages({ manifest }) {
                     `Language ${langCode} failed and no previous latest file exists.`
                 );
             }
+
+            return false;
         }
+    }
+
+    const englishChanged = await updateLanguage("en");
+
+    if (!englishChanged) {
+        console.log("English unchanged; skipping remaining languages.");
+
+        manifest.language = {
+            version: langVersion,
+            metadataUrl: dataPath(metadataRel),
+            available: files,
+            failed
+        };
+        return;
+    }
+
+    for (const langCode of LANGUAGES) {
+        if (langCode === "en") continue;
+        await updateLanguage(langCode);
     }
 
     manifest.language = {
