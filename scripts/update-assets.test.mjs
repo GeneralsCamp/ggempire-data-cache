@@ -27,6 +27,7 @@ const run = async (dll) => {
 };
 
 assert.deepEqual(collectLatestAssets("itemassets/A/Foo--100 itemassets/A/Foo--200"), [{ family: "A/Foo", version: "200" }]);
+assert.deepEqual(collectLatestAssets("interface/Icons/Foo--100 interface/Icons/Foo--200", "interface/"), [{ family: "Icons/Foo", version: "200" }]);
 setFamily("A/Foo", "100");
 assert.equal((await run("itemassets/A/Foo--100")).updated, 1, "first download");
 assert.deepEqual(JSON.parse(await readFile(path.join(outputDir, "manifest.json"), "utf8")), {
@@ -43,4 +44,27 @@ files.set(`${base}A/Foo--300.webp`, webp);
 files.set(`${base}A/Foo--300.json`, "{}");
 assert.equal((await run("itemassets/A/Foo--300")).failed, 1, "invalid companion fails family");
 assert.equal((await readFile(path.join(outputDir, "A", "Foo--200.js"), "utf8")).trim(), "window.asset = true;", "old family survives failed update");
+
+const interfaceOutputDir = path.join(root, "interface");
+const interfaceBase = "https://assets.test/interface/";
+const interfaceFamily = "Icons/ResourceSheet";
+const interfaceVersion = "200";
+files.set(`${interfaceBase}${interfaceFamily}--${interfaceVersion}.webp`, webp);
+files.set(`${interfaceBase}${interfaceFamily}--${interfaceVersion}.json`, "{\"frames\":[]}");
+files.set(`${interfaceBase}${interfaceFamily}--${interfaceVersion}.js`, "window.interfaceAsset = true;");
+await writeFile(dllPath, `interface/${interfaceFamily}--${interfaceVersion}`);
+assert.equal((await updateAssets({
+    dllPath,
+    assetGroups: [{
+        id: "interface",
+        sourcePrefix: "interface/",
+        outputDir: interfaceOutputDir,
+        assetBaseUrl: interfaceBase
+    }],
+    fetchImpl: fetchMock
+})).updated, 1, "interface asset family downloads");
+assert.deepEqual(JSON.parse(await readFile(path.join(interfaceOutputDir, "manifest.json"), "utf8")), {
+    version: 1,
+    assets: [{ path: `${interfaceFamily}--${interfaceVersion}` }]
+}, "interface manifest contains the downloaded sprite sheet");
 console.log("Asset updater tests passed.");

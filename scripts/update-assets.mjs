@@ -4,9 +4,22 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const DEFAULT_DLL_PATH = "public/data/empire/dll/ggs.dll.latest.js";
-const DEFAULT_OUTPUT_DIR = "public/assets/itemassets";
-const DEFAULT_ASSET_BASE_URL =
-    "https://empire-html5.goodgamestudios.com/default/assets/itemassets/";
+const DEFAULT_ASSET_GROUPS = [
+    {
+        id: "itemassets",
+        sourcePrefix: "itemassets/",
+        outputDir: "public/assets/itemassets",
+        assetBaseUrl:
+            "https://empire-html5.goodgamestudios.com/default/assets/itemassets/"
+    },
+    {
+        id: "interface",
+        sourcePrefix: "interface/",
+        outputDir: "public/assets/interface",
+        assetBaseUrl:
+            "https://empire-html5.goodgamestudios.com/default/assets/interface/"
+    }
+];
 
 const REQUEST_TIMEOUT_MS = Number(process.env.ASSET_REQUEST_TIMEOUT_MS || 30000);
 const RETRIES = Number(process.env.ASSET_RETRIES || 2);
@@ -22,9 +35,11 @@ function toSafeAssetPath(value) {
     return normalized;
 }
 
-export function collectLatestAssets(dllText) {
+export function collectLatestAssets(dllText, sourcePrefix = "itemassets/") {
     const latest = new Map();
-    const pattern = /itemassets\/([A-Za-z0-9_./-]+)--(\d+)(?!\d)/g;
+    const normalizedPrefix = String(sourcePrefix || "").replaceAll("\\", "/");
+    const escapedPrefix = normalizedPrefix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const pattern = new RegExp(`${escapedPrefix}([A-Za-z0-9_./-]+)--(\\d+)(?!\\d)`, "g");
 
     for (const match of String(dllText).matchAll(pattern)) {
         const family = toSafeAssetPath(match[1]);
@@ -161,39 +176,57 @@ async function mapWithConcurrency(items, limit, worker) {
 
 export async function updateAssets({
     dllPath = process.env.ASSET_DLL_PATH || DEFAULT_DLL_PATH,
-    outputDir = process.env.ASSET_OUTPUT_DIR || DEFAULT_OUTPUT_DIR,
-    assetBaseUrl = process.env.ASSET_BASE_URL || DEFAULT_ASSET_BASE_URL,
+    outputDir = process.env.ASSET_OUTPUT_DIR,
+    assetBaseUrl = process.env.ASSET_BASE_URL,
+    assetGroups = DEFAULT_ASSET_GROUPS,
     fetchImpl = fetch
 } = {}) {
-    const assets = collectLatestAssets(await readFile(dllPath, "utf8"));
-    const summary = { total: assets.length, updated: 0, skipped: 0, failed: 0 };
-    const readyAssets = new Set();
-    console.log(`Asset families in DLL: ${assets.length}`);
+    const selectedGroups = outputDir || assetBaseUrl
+        ? [{
+            id: "itemassets",
+            sourcePrefix: "itemassets/",
+            outputDir: outputDir || DEFAULT_ASSET_GROUPS[0].outputDir,
+            assetBaseUrl: assetBaseUrl || DEFAULT_ASSET_GROUPS[0].assetBaseUrl
+        }]
+        : assetGroups;
+    const dllText = await readFile(dllPath, "utf8");
+    const summary = { total: 0, updated: 0, skipped: 0, failed: 0 };
 
-    await mapWithConcurrency(assets, CONCURRENCY, async (asset) => {
-        try {
-            const outcome = await downloadAndReplace(asset, { outputDir, assetBaseUrl, fetchImpl });
-            summary[outcome] += 1;
-            readyAssets.add(`${asset.family}--${asset.version}`);
-            console.log(`${outcome === "skipped" ? "Skip" : "Cached"}: ${asset.family}--${asset.version}`);
-        } catch (error) {
-            summary.failed += 1;
-            console.error(`Asset failed (previous version kept): ${asset.family}--${asset.version} — ${error.message}`);
-        }
-    });
+    for (const group of selectedGroups) {
+        const assets = collectLatestAssets(dllText, group.sourcePrefix);
+        const readyAssets = new Set();
+        summary.total += assets.length;
+        console.log(`${group.id} asset families in DLL: ${assets.length}`);
 
-    const manifest = {
-        version: 1,
-        assets: assets
-            .filter((asset) => readyAssets.has(`${asset.family}--${asset.version}`))
-            .map((asset) => ({ path: `${asset.family}--${asset.version}` }))
-    };
-    const manifestPath = path.join(outputDir, "manifest.json");
-    const manifestChanged = await writeTextIfChanged(
-        manifestPath,
-        JSON.stringify(manifest) + "\n"
-    );
-    if (manifestChanged) console.log(`Updated asset manifest: ${manifestPath}`);
+        await mapWithConcurrency(assets, CONCURRENCY, async (asset) => {
+            try {
+                const outcome = await downloadAndReplace(asset, {
+                    outputDir: group.outputDir,
+                    assetBaseUrl: group.assetBaseUrl,
+                    fetchImpl
+                });
+                summary[outcome] += 1;
+                readyAssets.add(`${asset.family}--${asset.version}`);
+                console.log(`${group.id} ${outcome === "skipped" ? "skip" : "cached"}: ${asset.family}--${asset.version}`);
+            } catch (error) {
+                summary.failed += 1;
+                console.error(`${group.id} asset failed (previous version kept): ${asset.family}--${asset.version} — ${error.message}`);
+            }
+        });
+
+        const manifest = {
+            version: 1,
+            assets: assets
+                .filter((asset) => readyAssets.has(`${asset.family}--${asset.version}`))
+                .map((asset) => ({ path: `${asset.family}--${asset.version}` }))
+        };
+        const manifestPath = path.join(group.outputDir, "manifest.json");
+        const manifestChanged = await writeTextIfChanged(
+            manifestPath,
+            JSON.stringify(manifest) + "\n"
+        );
+        if (manifestChanged) console.log(`Updated ${group.id} asset manifest: ${manifestPath}`);
+    }
 
     console.log(`Assets complete: ${summary.updated} updated, ${summary.skipped} unchanged, ${summary.failed} failed.`);
     return summary;
