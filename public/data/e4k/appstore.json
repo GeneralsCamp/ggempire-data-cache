@@ -2,16 +2,6 @@
   "resultCount": 1,
   "results": [
     {
-      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
-      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/08/5f/ca085f28-8c81-8bc1-3c77-93ba10f24ddf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
-      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/08/5f/ca085f28-8c81-8bc1-3c77-93ba10f24ddf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
-      "isGameCenterEnabled": true,
-      "advisories": [
-        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
-        "Lootboxen",
-        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
-        "Häufig/stark ausgeprägt: Wettkämpfe"
-      ],
       "supportedDevices": [
         "iPhone5s-iPhone5s",
         "iPadAir-iPadAir",
@@ -144,6 +134,12 @@
         "iPhone18ProMax-iPhone18ProMax",
         "iPhoneDuo-iPhoneDuo"
       ],
+      "advisories": [
+        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
+        "Lootboxen",
+        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
+        "Häufig/stark ausgeprägt: Wettkämpfe"
+      ],
       "kind": "software",
       "screenshotUrls": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/52/d6/1552d6c7-79c8-ac90-ec1f-7f83e2f71b47/1c1da55b-352c-40e2-af52-abefc975d7cf_0_main_title_image_1284x2778.png/320x480bb.jpg",
@@ -167,39 +163,33 @@
       ],
       "appletvScreenshotUrls": [],
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/08/5f/ca085f28-8c81-8bc1-3c77-93ba10f24ddf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
+      "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/08/5f/ca085f28-8c81-8bc1-3c77-93ba10f24ddf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
+      "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/08/5f/ca085f28-8c81-8bc1-3c77-93ba10f24ddf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
       "features": [
         "gameCenter",
         "iosUniversal"
       ],
+      "isGameCenterEnabled": true,
       "minimumOsVersion": "15.0",
-      "trackCensoredName": "Empire Four Kingdoms",
-      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
-      "contentAdvisoryRating": "12+",
       "averageUserRating": 4.08188,
-      "artistId": 553166917,
-      "artistName": "Goodgame Studio",
-      "genres": [
-        "Spiele",
-        "Unterhaltung",
-        "Simulation",
-        "Strategie"
-      ],
+      "releaseNotes": "Hebt eure Becher, Herren und Damen! Das Oktoberfest kehrt in die Vier Königreiche zurück, beladen mit reichhaltigen Angeboten und seltenen Schätzen für die kühnsten Kaufleute des Reiches. Unterdessen haben unsere treuen Schreiber verirrte Kobolde aus dem Bergfried vertrieben und abgenutzte Zahnräder neu geschmiedet, sodass eure Herrschaft reibungsloser läuft als je zuvor. Hebt eure Banner - Ruhm erwartet euch!",
       "price": 0,
-      "sellerName": "Stillfront Germany GmbH",
+      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "releaseDate": "2013-02-26T13:45:24Z",
       "genreIds": [
         "6014",
         "6016",
         "7015",
         "7017"
       ],
-      "trackId": 585661281,
-      "trackName": "Empire Four Kingdoms",
+      "sellerName": "Stillfront Germany GmbH",
       "isVppDeviceBasedLicensingEnabled": true,
+      "trackName": "Empire Four Kingdoms",
+      "trackId": 585661281,
       "primaryGenreName": "Games",
       "primaryGenreId": 6014,
-      "releaseDate": "2013-02-26T13:45:24Z",
       "currentVersionReleaseDate": "2026-09-14T11:05:00Z",
-      "releaseNotes": "Hebt eure Becher, Herren und Damen! Das Oktoberfest kehrt in die Vier Königreiche zurück, beladen mit reichhaltigen Angeboten und seltenen Schätzen für die kühnsten Kaufleute des Reiches. Unterdessen haben unsere treuen Schreiber verirrte Kobolde aus dem Bergfried vertrieben und abgenutzte Zahnräder neu geschmiedet, sodass eure Herrschaft reibungsloser läuft als je zuvor. Hebt eure Banner - Ruhm erwartet euch!",
       "version": "4.142.35",
       "wrapperType": "software",
       "currency": "EUR",
@@ -228,7 +218,17 @@
       "formattedPrice": "Gratis",
       "userRatingCountForCurrentVersion": 2772,
       "trackContentRating": "12+",
-      "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "trackCensoredName": "Empire Four Kingdoms",
+      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
+      "contentAdvisoryRating": "12+",
+      "genres": [
+        "Spiele",
+        "Unterhaltung",
+        "Simulation",
+        "Strategie"
+      ],
+      "artistId": 553166917,
+      "artistName": "Goodgame Studio",
       "userRatingCount": 2772
     }
   ]
