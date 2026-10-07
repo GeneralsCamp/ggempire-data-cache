@@ -64,8 +64,14 @@
       "file": "/data/e4k/items/items_4142035_786_RC_03.json",
       "rawFile": "/data/e4k/items/raw/items_4142035_786_RC_03.raw.json",
       "latestFile": "/data/e4k/items_latest.json",
-      "rawLatestFile": "/data/e4k/items_latest.raw.json"
-    },
+      "rawLatestFile": "/data/e4k/items_latest.raw.json",
+      "source": "e4k",
+      "releaseChannel": "live",
+      "loaderSource": "app-store",
+      "appStoreLoaderVersion": "4142035"
+    }
+  ],
+  "preclientItems": [
     {
       "appVersion": "4143095",
       "appStoreVersion": "4.142.35",
@@ -73,10 +79,14 @@
       "addedAt": "2026-10-07T10:28:04.614Z",
       "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4143095/versions.json",
       "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4143095/itemsXML/items_787_RC_01.ggs",
-      "file": "/data/e4k/items/items_4143095_787_RC_01.json",
-      "rawFile": "/data/e4k/items/raw/items_4143095_787_RC_01.raw.json",
-      "latestFile": "/data/e4k/items_latest.json",
-      "rawLatestFile": "/data/e4k/items_latest.raw.json"
+      "file": "/data/preclient/items/items_4143095_787_RC_01.json",
+      "rawFile": "/data/preclient/items/raw/items_4143095_787_RC_01.raw.json",
+      "latestFile": "/data/preclient/items_latest.json",
+      "rawLatestFile": "/data/preclient/items_latest.raw.json",
+      "source": "preclient",
+      "releaseChannel": "preclient",
+      "loaderSource": "discovery-config",
+      "appStoreLoaderVersion": "4142035"
     }
   ]
 }

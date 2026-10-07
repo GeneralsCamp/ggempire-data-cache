@@ -176,6 +176,9 @@ function ensureHistoryShape(history) {
             : [],
         e4kItems: Array.isArray(history.e4kItems)
             ? history.e4kItems
+            : [],
+        preclientItems: Array.isArray(history.preclientItems)
+            ? history.preclientItems
             : []
     };
 }
@@ -250,6 +253,7 @@ async function pruneOldItemVersions(history) {
             history.e4kItems,
             ["file", "rawFile"]
         );
+    history.preclientItems = await pruneItemHistoryList(history.preclientItems, ["file", "rawFile"]);
 }
 
 function parseEmpireItemVersion(text) {
@@ -640,18 +644,37 @@ async function updateE4k({ history, manifest }) {
             ? String(loaderConfig.loaderVersion)
             : null;
 
-    const preferredLoaderVersion =
-        configuredLoaderVersion &&
-        BigInt(configuredLoaderVersion) > BigInt(apiLoaderVersion)
-            ? configuredLoaderVersion
-            : apiLoaderVersion;
+    // No stale Preclient pointer when the App Store catches up with discovery.
+    delete manifest.preclient;
 
-    if (preferredLoaderVersion !== apiLoaderVersion) {
-        console.log(
-            `Using discovered E4K loader ${preferredLoaderVersion} ` +
-            `(App Store loader: ${apiLoaderVersion}).`
-        );
+    // Move finder releases out of the live comparison history. The original
+    // archive files remain available at their old paths until refreshed.
+    history.e4kItems = history.e4kItems.filter(entry => {
+        const storeVersion = String(entry.appStoreVersion || "").split(".");
+        const storeLoader = entry.appStoreLoaderVersion || (storeVersion.length >= 2
+            ? `${storeVersion[0]}${storeVersion[1]}${(storeVersion[2] || "0").padStart(3, "0")}`
+            : "");
+        const finderRelease = entry.loaderSource === "discovery-config" ||
+            (/^\d+$/.test(String(entry.appVersion)) && /^\d+$/.test(storeLoader) &&
+                BigInt(entry.appVersion) > BigInt(storeLoader));
+        if (!finderRelease) return true;
+        const migrated = { ...entry, source: "preclient", releaseChannel: "preclient", loaderSource: "discovery-config" };
+        addHistoryEntry(history.preclientItems, candidate =>
+            candidate.appVersion === entry.appVersion && candidate.itemVersion === entry.itemVersion, migrated);
+        return false;
+    });
+
+    await updateE4kChannel({ history, manifest, source: "e4k", loaderVersion: apiLoaderVersion,
+        appStoreVersion, apiLoaderVersion, appstoreRel });
+    if (configuredLoaderVersion && BigInt(configuredLoaderVersion) > BigInt(apiLoaderVersion)) {
+        await updateE4kChannel({ history, manifest, source: "preclient", loaderVersion: configuredLoaderVersion,
+            appStoreVersion, apiLoaderVersion, appstoreRel });
     }
+}
+
+async function updateE4kChannel({ history, manifest, source, loaderVersion: requestedLoader,
+    appStoreVersion, apiLoaderVersion, appstoreRel }) {
+    console.log(`Updating ${source} loader ${requestedLoader} (App Store: ${apiLoaderVersion}).`);
 
     let loaderVersion;
     let loaderBase;
@@ -659,8 +682,7 @@ async function updateE4k({ history, manifest }) {
 
     let versionsText;
 
-    const loaderCandidates =
-        [...new Set([preferredLoaderVersion, apiLoaderVersion])];
+    const loaderCandidates = [requestedLoader];
 
     for (const candidateLoader of loaderCandidates) {
         for (const candidateBase of E4K_LOADER_BASES) {
@@ -699,7 +721,7 @@ async function updateE4k({ history, manifest }) {
     }
 
     const versionsRel =
-        "e4k/versions.json";
+        `${source}/versions.json`;
 
     await writeTextIfChanged(
         outputPath(versionsRel),
@@ -713,16 +735,16 @@ async function updateE4k({ history, manifest }) {
         `${loaderBase}/${loaderVersion}/itemsXML/items_${normalizedItemVersion}.ggs`;
 
     const archiveRel =
-        `e4k/items/items_${slug(loaderVersion)}_${slug(itemVersion)}.json`;
+        `${source}/items/items_${slug(loaderVersion)}_${slug(itemVersion)}.json`;
 
     const rawArchiveRel =
-        `e4k/items/raw/items_${slug(loaderVersion)}_${slug(itemVersion)}.raw.json`;
+        `${source}/items/raw/items_${slug(loaderVersion)}_${slug(itemVersion)}.raw.json`;
 
     const latestRel =
-        "e4k/items_latest.json";
+        `${source}/items_latest.json`;
 
     const rawLatestRel =
-        "e4k/items_latest.raw.json";
+        `${source}/items_latest.raw.json`;
 
     const archivePath =
         outputPath(archiveRel);
@@ -741,6 +763,14 @@ async function updateE4k({ history, manifest }) {
         !existsSync(archivePath) ||
         !existsSync(latestPath);
 
+    const releaseInfo = {
+        source,
+        releaseChannel: source === "preclient" ? "preclient" : "live",
+        loaderVersion,
+        appStoreLoaderVersion: apiLoaderVersion,
+        detectionMethod: source === "preclient" ? "discovery-config" : "app-store"
+    };
+
     if (shouldDownload) {
         console.log(`Downloading E4K items ${loaderVersion} / ${itemVersion}`);
 
@@ -755,6 +785,7 @@ async function updateE4k({ history, manifest }) {
 
         const normalized =
             normalizeE4kData(parsedRaw);
+        normalized.releaseInfo = releaseInfo;
 
         const rawJsonText =
             JSON.stringify(parsedRaw);
@@ -797,6 +828,7 @@ async function updateE4k({ history, manifest }) {
 
         const normalized =
             normalizeE4kData(existingJson);
+        normalized.releaseInfo = releaseInfo;
 
         const normalizedJsonText =
             JSON.stringify(normalized);
@@ -819,32 +851,35 @@ async function updateE4k({ history, manifest }) {
         }
     }
 
-    addHistoryEntry(
-        history.e4kItems,
-        (entry) =>
-            String(entry.appVersion) === String(loaderVersion) &&
-            String(entry.itemVersion) === String(itemVersion),
-        {
+    const channelHistory = source === "preclient" ? history.preclientItems : history.e4kItems;
+    const existingEntry = channelHistory.find(entry =>
+        String(entry.appVersion) === String(loaderVersion) && String(entry.itemVersion) === String(itemVersion));
+    const historyEntry = {
+            source,
+            releaseChannel: releaseInfo.releaseChannel,
+            loaderSource: releaseInfo.detectionMethod,
             appVersion: loaderVersion,
             appStoreVersion,
+            appStoreLoaderVersion: apiLoaderVersion,
             itemVersion,
-            addedAt: new Date().toISOString(),
+            addedAt: existingEntry?.addedAt || new Date().toISOString(),
             versionsSourceUrl: versionsUrl,
             sourceUrl: ggsUrl,
             file: dataPath(archiveRel),
             rawFile: dataPath(rawArchiveRel),
             latestFile: dataPath(latestRel),
             rawLatestFile: dataPath(rawLatestRel)
-        }
-    );
+        };
+    if (existingEntry) Object.assign(existingEntry, historyEntry);
+    else channelHistory.push(historyEntry);
 
-    manifest.e4k = {
+    manifest[source] = {
+        source,
+        releaseChannel: releaseInfo.releaseChannel,
         appVersion: loaderVersion,
         appStoreVersion,
         appStoreLoaderVersion: apiLoaderVersion,
-        loaderSource: loaderVersion === apiLoaderVersion
-            ? "app-store"
-            : "discovery-config",
+        loaderSource: releaseInfo.detectionMethod,
         itemVersion,
         appstoreUrl: dataPath(appstoreRel),
         versionsUrl: dataPath(versionsRel),
@@ -919,18 +954,20 @@ async function main() {
             await readJsonIfExists(historyPath, {})
         );
 
+    const mobileOnly = process.argv.includes("--only-e4k");
     const manifest = {
+        ...(mobileOnly ? await readJsonIfExists(outputPath("manifest.json"), {}) : {}),
         updatedAt: new Date().toISOString(),
         generatedBy: "GitHub Actions",
         languages: LANGUAGES
     };
 
-    await updateEmpireItems({
+    if (!mobileOnly) await updateEmpireItems({
         history,
         manifest
     });
 
-    await updateLanguages({
+    if (!mobileOnly) await updateLanguages({
         manifest
     });
 
@@ -939,11 +976,11 @@ async function main() {
         manifest
     });
 
-    await updateEmpireDll({
+    if (!mobileOnly) await updateEmpireDll({
         manifest
     });
 
-    await pruneOldItemVersions(history);
+    if (!mobileOnly) await pruneOldItemVersions(history);
 
     await writeTextIfChanged(
         outputPath("manifest.json"),
