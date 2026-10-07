@@ -12,7 +12,7 @@ import zlib
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlparse
 
-ASSET_FOLDERS = ("Buildings", "BuildingSkins")
+ASSET_FOLDERS = ("Buildings", "BuildingSkins", "Units", "Equipment")
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 
 
