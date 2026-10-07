@@ -30,24 +30,27 @@ jobs:
       - name: Discover latest test loader
         run: python scripts/discover-e4k-loader.py --output config/e4k-loader.json
 
-      - name: Check whether a new loader was found
+      - name: Extract selected E4K item assets
+        run: python scripts/update-e4k-assets.py --config config/e4k-loader.json --output public/assets/e4k
+
+      - name: Check whether loader or assets changed
         id: changes
         shell: bash
         run: |
-          if git diff --quiet -- config/e4k-loader.json; then
+          git add config/e4k-loader.json public/assets/e4k/
+          if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No new E4K loader found."
+            echo "Loader and selected assets are already current."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit discovered loader
+      - name: Commit discovered loader and assets
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add config/e4k-loader.json
-          git commit -m "Update discovered E4K loader"
+          git commit -m "Update discovered E4K loader and item assets"
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
 
