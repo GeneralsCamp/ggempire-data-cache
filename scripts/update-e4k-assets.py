@@ -115,8 +115,6 @@ def safe_image_file(relative):
 
 def reusable_images(output, previous):
     manifests = [previous]
-    for archive in sorted(output.glob("*/manifest.json")):
-        manifests.append(json.loads(archive.read_text(encoding="utf-8")))
     images = {}
     checked = {}
     for manifest in manifests:
@@ -212,9 +210,6 @@ def update_assets(config_path, output, open_archive=open_remote_archive):
             target.write_bytes(image)
     output.mkdir(parents=True, exist_ok=True)
     text = json.dumps(manifest, indent=2) + "\n"
-    archive_manifest = output / loader / "manifest.json"
-    archive_manifest.parent.mkdir(parents=True, exist_ok=True)
-    archive_manifest.write_text(text, encoding="utf-8")
     manifest_path.write_text(text, encoding="utf-8")
     print(f"Indexed {len(assets)} images; downloaded {downloaded}, reused {reused}.")
     return manifest
