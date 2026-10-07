@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile, copyFile, rm } from "node:fs/promises";
+import { mkdir, readFile, writeFile, copyFile, rm, readdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import JSZip from "jszip";
@@ -251,9 +251,33 @@ async function pruneOldItemVersions(history) {
     history.e4kItems =
         await pruneItemHistoryList(
             history.e4kItems,
-            ["file", "rawFile"]
+            ["file"]
         );
-    history.preclientItems = await pruneItemHistoryList(history.preclientItems, ["file", "rawFile"]);
+    history.preclientItems = await pruneItemHistoryList(history.preclientItems, ["file"]);
+}
+
+async function removeStoredMobileRawData({ history, manifest }) {
+    for (const source of ["e4k", "preclient"]) {
+        const rawDirectory = outputPath(`${source}/items/raw`);
+        const entries = await readdir(rawDirectory, { withFileTypes: true }).catch(error => {
+            if (error.code === "ENOENT") return [];
+            throw error;
+        });
+        for (const entry of entries) {
+            if (entry.isFile() && entry.name.endsWith(".raw.json")) {
+                await rm(path.join(rawDirectory, entry.name));
+            }
+        }
+        await rm(outputPath(`${source}/items_latest.raw.json`), { force: true });
+        for (const entry of history[`${source}Items`] || []) {
+            delete entry.rawFile;
+            delete entry.rawLatestFile;
+        }
+        if (manifest[source]) {
+            delete manifest[source].rawItemsUrl;
+            delete manifest[source].archivedRawItemsUrl;
+        }
+    }
 }
 
 function parseEmpireItemVersion(text) {
@@ -737,31 +761,9 @@ async function updateE4kChannel({ history, manifest, source, loaderVersion: requ
     const archiveRel =
         `${source}/items/items_${slug(loaderVersion)}_${slug(itemVersion)}.json`;
 
-    const rawArchiveRel =
-        `${source}/items/raw/items_${slug(loaderVersion)}_${slug(itemVersion)}.raw.json`;
-
-    const latestRel =
-        `${source}/items_latest.json`;
-
-    const rawLatestRel =
-        `${source}/items_latest.raw.json`;
-
-    const archivePath =
-        outputPath(archiveRel);
-
-    const rawArchivePath =
-        outputPath(rawArchiveRel);
-
-    const latestPath =
-        outputPath(latestRel);
-
-    const rawLatestPath =
-        outputPath(rawLatestRel);
-
-    const shouldDownload =
-        !existsSync(rawArchivePath) ||
-        !existsSync(archivePath) ||
-        !existsSync(latestPath);
+    const latestRel = `${source}/items_latest.json`;
+    const archivePath = outputPath(archiveRel);
+    const latestPath = outputPath(latestRel);
 
     const releaseInfo = {
         source,
@@ -771,85 +773,22 @@ async function updateE4kChannel({ history, manifest, source, loaderVersion: requ
         detectionMethod: source === "preclient" ? "discovery-config" : "app-store"
     };
 
-    if (shouldDownload) {
+    let normalized;
+    if (!existsSync(archivePath)) {
         console.log(`Downloading E4K items ${loaderVersion} / ${itemVersion}`);
-
-        const zipBuffer =
-            await fetchBuffer(ggsUrl, 90000);
-
-        const xmlText =
-            await unpackE4kArchive(zipBuffer);
-
-        const parsedRaw =
-            parseE4kXmlToJson(xmlText);
-
-        const normalized =
-            normalizeE4kData(parsedRaw);
-        normalized.releaseInfo = releaseInfo;
-
-        const rawJsonText =
-            JSON.stringify(parsedRaw);
-
-        const normalizedJsonText =
-            JSON.stringify(normalized);
-
-        await writeTextIfChanged(
-            rawArchivePath,
-            rawJsonText
-        );
-
-        await writeTextIfChanged(
-            rawLatestPath,
-            rawJsonText
-        );
-
-        await writeTextIfChanged(
-            archivePath,
-            normalizedJsonText
-        );
-
-        await writeTextIfChanged(
-            latestPath,
-            normalizedJsonText
-        );
+        const zipBuffer = await fetchBuffer(ggsUrl, 90000);
+        const xmlText = await unpackE4kArchive(zipBuffer);
+        // Raw XML/JSON exists only in memory; retain the normalized payload.
+        normalized = normalizeE4kData(parseE4kXmlToJson(xmlText));
     } else {
         console.log(`E4K items ${loaderVersion} / ${itemVersion} already cached.`);
-
-        const sourcePathForNormalization =
-            existsSync(rawArchivePath)
-                ? rawArchivePath
-                : archivePath;
-
-        const existingText =
-            await readFile(sourcePathForNormalization, "utf8");
-
-        const existingJson =
-            JSON.parse(existingText);
-
-        const normalized =
-            normalizeE4kData(existingJson);
-        normalized.releaseInfo = releaseInfo;
-
-        const normalizedJsonText =
-            JSON.stringify(normalized);
-
-        await writeTextIfChanged(
-            archivePath,
-            normalizedJsonText
-        );
-
-        await writeTextIfChanged(
-            latestPath,
-            normalizedJsonText
-        );
-
-        if (existsSync(rawArchivePath)) {
-            await copyIfMissingOrChanged(
-                rawArchivePath,
-                rawLatestPath
-            );
-        }
+        const existingJson = JSON.parse(await readFile(archivePath, "utf8"));
+        normalized = normalizeE4kData(existingJson);
     }
+    normalized.releaseInfo = releaseInfo;
+    const normalizedJsonText = JSON.stringify(normalized);
+    await writeTextIfChanged(archivePath, normalizedJsonText);
+    await writeTextIfChanged(latestPath, normalizedJsonText);
 
     const channelHistory = source === "preclient" ? history.preclientItems : history.e4kItems;
     const existingEntry = channelHistory.find(entry =>
@@ -866,9 +805,7 @@ async function updateE4kChannel({ history, manifest, source, loaderVersion: requ
             versionsSourceUrl: versionsUrl,
             sourceUrl: ggsUrl,
             file: dataPath(archiveRel),
-            rawFile: dataPath(rawArchiveRel),
-            latestFile: dataPath(latestRel),
-            rawLatestFile: dataPath(rawLatestRel)
+            latestFile: dataPath(latestRel)
         };
     if (existingEntry) Object.assign(existingEntry, historyEntry);
     else channelHistory.push(historyEntry);
@@ -884,9 +821,7 @@ async function updateE4kChannel({ history, manifest, source, loaderVersion: requ
         appstoreUrl: dataPath(appstoreRel),
         versionsUrl: dataPath(versionsRel),
         itemsUrl: dataPath(latestRel),
-        rawItemsUrl: dataPath(rawLatestRel),
         archivedItemsUrl: dataPath(archiveRel),
-        archivedRawItemsUrl: dataPath(rawArchiveRel),
         originalVersionsUrl: versionsUrl,
         originalItemsUrl: ggsUrl
     };
@@ -980,6 +915,7 @@ async function main() {
         manifest
     });
 
+    await removeStoredMobileRawData({ history, manifest });
     if (!mobileOnly) await pruneOldItemVersions(history);
 
     await writeTextIfChanged(
