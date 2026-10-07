@@ -79,6 +79,20 @@
       "releaseChannel": "preclient",
       "loaderSource": "discovery-config",
       "appStoreLoaderVersion": "4142035"
+    },
+    {
+      "source": "preclient",
+      "releaseChannel": "preclient",
+      "loaderSource": "discovery-config",
+      "appVersion": "4143101",
+      "appStoreVersion": "4.142.35",
+      "appStoreLoaderVersion": "4142035",
+      "itemVersion": "787.RC.03",
+      "addedAt": "2026-10-07T17:07:25.934Z",
+      "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4143101/versions.json",
+      "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4143101/itemsXML/items_787_RC_03.ggs",
+      "file": "/data/preclient/items/items_4143101_787_RC_03.json",
+      "latestFile": "/data/preclient/items_latest.json"
     }
   ]
 }

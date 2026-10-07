@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T16:31:18.472Z",
+  "updatedAt": "2026-10-07T17:07:21.005Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -83,17 +83,17 @@
   "preclient": {
     "source": "preclient",
     "releaseChannel": "preclient",
-    "appVersion": "4143095",
+    "appVersion": "4143101",
     "appStoreVersion": "4.142.35",
     "appStoreLoaderVersion": "4142035",
     "loaderSource": "discovery-config",
-    "itemVersion": "787.RC.01",
+    "itemVersion": "787.RC.03",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/preclient/versions.json",
     "itemsUrl": "/data/preclient/items_latest.json",
-    "archivedItemsUrl": "/data/preclient/items/items_4143095_787_RC_01.json",
-    "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4143095/versions.json",
-    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4143095/itemsXML/items_787_RC_01.ggs"
+    "archivedItemsUrl": "/data/preclient/items/items_4143101_787_RC_03.json",
+    "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4143101/versions.json",
+    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4143101/itemsXML/items_787_RC_03.ggs"
   },
   "empireDll": {
     "available": true,
