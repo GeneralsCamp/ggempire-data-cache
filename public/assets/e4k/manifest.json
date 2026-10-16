@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "loaderVersion": "4143101",
-  "itemVersion": "787.RC.03",
+  "loaderVersion": "4144021",
+  "itemVersion": "788.RC.02",
   "resolution": "x768",
   "folders": [
     "Buildings",
@@ -11,12 +11,12 @@
     "WorldmapObjects"
   ],
   "packages": [
-    "https://media-s3.goodgamestudios.com/loader/4143101/itemAssets/package_0_x768.ggs",
-    "https://media-s3.goodgamestudios.com/loader/4143101/itemAssets/package_1_x768.ggs",
-    "https://media-s3.goodgamestudios.com/loader/4143101/itemAssets/package_2_x768.ggs"
+    "https://media-s3.goodgamestudios.com/loader/4144021/itemAssets/package_0_x768.ggs",
+    "https://media-s3.goodgamestudios.com/loader/4144021/itemAssets/package_1_x768.ggs",
+    "https://media-s3.goodgamestudios.com/loader/4144021/itemAssets/package_2_x768.ggs"
   ],
-  "count": 3577,
-  "bytes": 48508218,
+  "count": 3578,
+  "bytes": 48509068,
   "assets": [
     {
       "path": "BuildingSkins/AnniversaryBWorkshop/AnniversaryBWorkshop.png",
@@ -23812,11 +23812,11 @@
     },
     {
       "path": "WorldmapObjects/Common/SpyLayer/AutoSpyLayer.png",
-      "file": "files/e2947311f59f7d5d6f1b1e056d448c4697f195597ee3ba7bfb6d13c4d0e43203.png",
-      "package": 1,
-      "bytes": 750,
-      "crc32": 3964110881,
-      "sha256": "e2947311f59f7d5d6f1b1e056d448c4697f195597ee3ba7bfb6d13c4d0e43203"
+      "file": "files/ba70ea4baf26f918412a7ae70b86e6f8ca3df39159c034f7a09792ecb5aa51d3.png",
+      "package": 0,
+      "bytes": 800,
+      "crc32": 79898888,
+      "sha256": "ba70ea4baf26f918412a7ae70b86e6f8ca3df39159c034f7a09792ecb5aa51d3"
     },
     {
       "path": "WorldmapObjects/Dungeons/Bossdungeon_Mapobject_Dessert/Bossdungeon_Mapobject_Dessert.png",
@@ -28521,6 +28521,14 @@
       "bytes": 1379,
       "crc32": 136352993,
       "sha256": "3050d4f4c45e61a8a141bb92c17756757f52ea9d3d84e8a44409929a8ecf85fc"
+    },
+    {
+      "path": "WorldmapObjects/WorldmapObjectsShared/AutoSpyLayer.png",
+      "file": "files/ba70ea4baf26f918412a7ae70b86e6f8ca3df39159c034f7a09792ecb5aa51d3.png",
+      "package": 0,
+      "bytes": 800,
+      "crc32": 79898888,
+      "sha256": "ba70ea4baf26f918412a7ae70b86e6f8ca3df39159c034f7a09792ecb5aa51d3"
     },
     {
       "path": "WorldmapObjects/WorldmapObjectsShared/Castle_Mapobject_Level6_Classic_Shared.png",
