@@ -2,20 +2,10 @@
   "resultCount": 1,
   "results": [
     {
-      "isGameCenterEnabled": true,
       "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
       "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/91/e0/1f91e0b5-1b80-796a-12da-aba5e59d9b03/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
       "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/91/e0/1f91e0b5-1b80-796a-12da-aba5e59d9b03/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
-      "features": [
-        "gameCenter",
-        "iosUniversal"
-      ],
-      "advisories": [
-        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
-        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
-        "Lootboxen",
-        "Häufig/stark ausgeprägt: Wettkämpfe"
-      ],
+      "isGameCenterEnabled": true,
       "supportedDevices": [
         "iPhone5s-iPhone5s",
         "iPadAir-iPadAir",
@@ -148,8 +138,13 @@
         "iPhone18ProMax-iPhone18ProMax",
         "iPhoneDuo-iPhoneDuo"
       ],
+      "advisories": [
+        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
+        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt",
+        "Lootboxen",
+        "Häufig/stark ausgeprägt: Wettkämpfe"
+      ],
       "kind": "software",
-      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/91/e0/1f91e0b5-1b80-796a-12da-aba5e59d9b03/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
       "screenshotUrls": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/52/d6/1552d6c7-79c8-ac90-ec1f-7f83e2f71b47/1c1da55b-352c-40e2-af52-abefc975d7cf_0_main_title_image_1284x2778.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/18/6f/08186fb8-f355-875f-39de-f3efa1a90f14/ae21a8fd-8546-4278-8a82-0c7476aef5df_DE_1284x2778_1_build.png/320x480bb.jpg",
@@ -171,10 +166,14 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/09/1b/ab/091bab23-741b-5399-db51-8325a22115a8/DE_2048x2732_8_recruit.png/360x480bb.jpg"
       ],
       "appletvScreenshotUrls": [],
+      "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/91/e0/1f91e0b5-1b80-796a-12da-aba5e59d9b03/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+      "features": [
+        "gameCenter",
+        "iosUniversal"
+      ],
       "minimumOsVersion": "15.0",
-      "trackCensoredName": "Empire Four Kingdoms",
-      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
       "contentAdvisoryRating": "12+",
+      "currentVersionReleaseDate": "2026-10-12T11:14:33Z",
       "averageUserRating": 4.08255,
       "artistId": 553166917,
       "artistName": "Goodgame Studio",
@@ -186,14 +185,6 @@
       ],
       "price": 0,
       "bundleId": "com.goodgamestudios.empirefourkingdoms",
-      "currentVersionReleaseDate": "2026-10-12T11:14:33Z",
-      "trackId": 585661281,
-      "trackName": "Empire Four Kingdoms",
-      "releaseNotes": "Heil, Herren und Damen! Halloween naht den Vier Königreichen, beladen mit unheimlichen Waren und spektralen Schätzen. Aeryn, ein neuer General, reitet nun unter deiner Fahne! Unterdessen haben unsere Schmiede und Schreiber die mächtigste Gremlins-Säuberung in vielen Jahren vollbracht und unzählige Risse im ganzen Reich versiegelt. Schärfe dein Schwert - Ruhm erwartet dich!",
-      "primaryGenreName": "Games",
-      "primaryGenreId": 6014,
-      "sellerName": "Stillfront Germany GmbH",
-      "isVppDeviceBasedLicensingEnabled": true,
       "genreIds": [
         "6014",
         "6016",
@@ -201,6 +192,12 @@
         "7017"
       ],
       "releaseDate": "2013-02-26T13:45:24Z",
+      "trackId": 585661281,
+      "trackName": "Empire Four Kingdoms",
+      "sellerName": "Stillfront Germany GmbH",
+      "primaryGenreName": "Games",
+      "primaryGenreId": 6014,
+      "isVppDeviceBasedLicensingEnabled": true,
       "version": "4.143.95",
       "wrapperType": "software",
       "currency": "EUR",
@@ -229,6 +226,9 @@
       "formattedPrice": "Gratis",
       "userRatingCountForCurrentVersion": 2774,
       "trackContentRating": "12+",
+      "trackCensoredName": "Empire Four Kingdoms",
+      "trackViewUrl": "https://apps.apple.com/de/app/empire-four-kingdoms/id585661281?uo=4",
+      "releaseNotes": "Heil, Herren und Damen! Halloween naht den Vier Königreichen, beladen mit unheimlichen Waren und spektralen Schätzen. Aeryn, ein neuer General, reitet nun unter deiner Fahne! Unterdessen haben unsere Schmiede und Schreiber die mächtigste Gremlins-Säuberung in vielen Jahren vollbracht und unzählige Risse im ganzen Reich versiegelt. Schärfe dein Schwert - Ruhm erwartet dich!",
       "userRatingCount": 2774
     }
   ]
