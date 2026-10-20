@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T12:03:04.294Z",
+  "updatedAt": "2026-10-20T15:18:41.549Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -35,7 +35,7 @@
     "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v788.02.json"
   },
   "language": {
-    "version": "4381",
+    "version": "4382",
     "metadataUrl": "/data/lang/metadata.json",
     "available": {
       "en": "/data/lang/en.json",
@@ -68,30 +68,15 @@
   "e4k": {
     "source": "e4k",
     "releaseChannel": "live",
-    "appVersion": "4143095",
-    "appStoreVersion": "4.143.95",
-    "appStoreLoaderVersion": "4143095",
+    "appVersion": "4144021",
+    "appStoreVersion": "4.144.21",
+    "appStoreLoaderVersion": "4144021",
     "loaderSource": "app-store",
-    "itemVersion": "787.RC.03",
+    "itemVersion": "788.RC.02",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/e4k/versions.json",
     "itemsUrl": "/data/e4k/items_latest.json",
-    "archivedItemsUrl": "/data/e4k/items/items_4143095_787_RC_03.json",
-    "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4143095/versions.json",
-    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4143095/itemsXML/items_787_RC_03.ggs"
-  },
-  "preclient": {
-    "source": "preclient",
-    "releaseChannel": "preclient",
-    "appVersion": "4144021",
-    "appStoreVersion": "4.143.95",
-    "appStoreLoaderVersion": "4143095",
-    "loaderSource": "discovery-config",
-    "itemVersion": "788.RC.02",
-    "appstoreUrl": "/data/e4k/appstore.json",
-    "versionsUrl": "/data/preclient/versions.json",
-    "itemsUrl": "/data/preclient/items_latest.json",
-    "archivedItemsUrl": "/data/preclient/items/items_4144021_788_RC_02.json",
+    "archivedItemsUrl": "/data/e4k/items/items_4144021_788_RC_02.json",
     "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/versions.json",
     "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_02.ggs"
   },
