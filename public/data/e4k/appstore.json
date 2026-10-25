@@ -2,6 +2,7 @@
   "resultCount": 1,
   "results": [
     {
+      "isGameCenterEnabled": true,
       "screenshotUrls": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/52/d6/1552d6c7-79c8-ac90-ec1f-7f83e2f71b47/1c1da55b-352c-40e2-af52-abefc975d7cf_0_main_title_image_1284x2778.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/08/18/6f/08186fb8-f355-875f-39de-f3efa1a90f14/ae21a8fd-8546-4278-8a82-0c7476aef5df_DE_1284x2778_1_build.png/320x480bb.jpg",
@@ -24,13 +25,6 @@
       ],
       "appletvScreenshotUrls": [],
       "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/11/b3/ed11b3bd-1fbf-6b99-7a5e-c4e45ca69c18/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
-      "isGameCenterEnabled": true,
-      "advisories": [
-        "Häufig/stark ausgeprägt: Wettkämpfe",
-        "Lootboxen",
-        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
-        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt"
-      ],
       "supportedDevices": [
         "iPhone5s-iPhone5s",
         "iPadAir-iPadAir",
@@ -163,14 +157,22 @@
         "iPhone18ProMax-iPhone18ProMax",
         "iPhoneDuo-iPhoneDuo"
       ],
-      "kind": "software",
       "features": [
         "gameCenter",
         "iosUniversal"
       ],
+      "kind": "software",
       "artistViewUrl": "https://apps.apple.com/de/developer/goodgame-studio/id553166917?uo=4",
       "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/11/b3/ed11b3bd-1fbf-6b99-7a5e-c4e45ca69c18/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/60x60bb.jpg",
       "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/11/b3/ed11b3bd-1fbf-6b99-7a5e-c4e45ca69c18/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
+      "advisories": [
+        "Häufig/stark ausgeprägt: Wettkämpfe",
+        "Lootboxen",
+        "Selten/schwach ausgeprägt: Gebrauch von Alkohol, Tabak oder Drogen bzw. Verweise hierzu",
+        "Selten/schwach ausgeprägt: Zeichentrick- oder Fantasy-Gewalt"
+      ],
+      "releaseNotes": "Blaset die Kriegshörner, Herren und Damen! Die Schlacht um Berimond wird neu geschmiedet. Eure Lager erheben sich nun mächtiger denn je, Met- und Fleischsoldaten treten in den Kampf ein und ein gefährlicher zentraler Pfad furchteinflößender Türme belohnt die Kühnen mit reichlich Rubinen. Der Berimond-Waffenschmied schmiedet stärkere Werkzeuge und frische Beute krönt jeden Titel. Unsere Schreiber haben eine Horde von Gremlins vertrieben. Reitet hinaus - die Türme werden fallen!",
+      "averageUserRatingForCurrentVersion": 4.07955,
       "sellerUrl": "https://www.goodgamestudios.com/",
       "languageCodesISO2A": [
         "CS",
@@ -194,32 +196,24 @@
       "formattedPrice": "Gratis",
       "userRatingCountForCurrentVersion": 2778,
       "trackContentRating": "12+",
-      "averageUserRatingForCurrentVersion": 4.07955,
       "artistId": 553166917,
       "artistName": "Goodgame Studio",
-      "genres": [
-        "Spiele",
-        "Unterhaltung",
-        "Simulation",
-        "Strategie"
-      ],
       "price": 0,
+      "trackId": 585661281,
+      "trackName": "Empire Four Kingdoms",
       "bundleId": "com.goodgamestudios.empirefourkingdoms",
+      "sellerName": "Stillfront Germany GmbH",
+      "primaryGenreName": "Games",
+      "primaryGenreId": 6014,
       "genreIds": [
         "6014",
         "6016",
         "7015",
         "7017"
       ],
-      "primaryGenreName": "Games",
-      "primaryGenreId": 6014,
-      "sellerName": "Stillfront Germany GmbH",
-      "isVppDeviceBasedLicensingEnabled": true,
       "releaseDate": "2013-02-26T13:45:24Z",
+      "isVppDeviceBasedLicensingEnabled": true,
       "currentVersionReleaseDate": "2026-10-20T11:03:28Z",
-      "trackId": 585661281,
-      "trackName": "Empire Four Kingdoms",
-      "releaseNotes": "Blaset die Kriegshörner, Herren und Damen! Die Schlacht um Berimond wird neu geschmiedet. Eure Lager erheben sich nun mächtiger denn je, Met- und Fleischsoldaten treten in den Kampf ein und ein gefährlicher zentraler Pfad furchteinflößender Türme belohnt die Kühnen mit reichlich Rubinen. Der Berimond-Waffenschmied schmiedet stärkere Werkzeuge und frische Beute krönt jeden Titel. Unsere Schreiber haben eine Horde von Gremlins vertrieben. Reitet hinaus - die Türme werden fallen!",
       "version": "4.144.21",
       "wrapperType": "software",
       "currency": "EUR",
@@ -229,6 +223,12 @@
       "contentAdvisoryRating": "12+",
       "averageUserRating": 4.07955,
       "minimumOsVersion": "15.0",
+      "genres": [
+        "Spiele",
+        "Unterhaltung",
+        "Simulation",
+        "Strategie"
+      ],
       "userRatingCount": 2778
     }
   ]
