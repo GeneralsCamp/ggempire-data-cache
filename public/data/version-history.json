@@ -112,6 +112,20 @@
       "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_02.ggs",
       "file": "/data/e4k/items/items_4144021_788_RC_02.json",
       "latestFile": "/data/e4k/items_latest.json"
+    },
+    {
+      "source": "e4k",
+      "releaseChannel": "live",
+      "loaderSource": "app-store",
+      "appVersion": "4144021",
+      "appStoreVersion": "4.144.21",
+      "appStoreLoaderVersion": "4144021",
+      "itemVersion": "788.RC.03",
+      "addedAt": "2026-10-26T13:18:37.696Z",
+      "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4144021/versions.json",
+      "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_03.ggs",
+      "file": "/data/e4k/items/items_4144021_788_RC_03.json",
+      "latestFile": "/data/e4k/items_latest.json"
     }
   ],
   "preclientItems": [
