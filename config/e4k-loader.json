@@ -1,11 +1,9 @@
 {
   "schemaVersion": 1,
   "loaderVersion": "4144021",
-  "itemVersion": "788.RC.02",
-  "appStoreVersion": "4.143.95",
-  "appStoreLoaderVersion": "4143095",
+  "itemVersion": "788.RC.03",
+  "appStoreVersion": "4.144.21",
+  "appStoreLoaderVersion": "4144021",
   "versionsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/versions.json",
-  "discoveredAt": "2026-10-16T15:43:44.103099Z",
-  "releaseDate": "2026-10-14T11:32:49",
-  "itemsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_02.ggs"
+  "discoveredAt": "2026-10-31T17:03:12.533775Z"
 }
