@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T15:10:25.367Z",
+  "updatedAt": "2026-11-03T21:04:07.688Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -35,7 +35,7 @@
     "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v788.03.json"
   },
   "language": {
-    "version": "4396",
+    "version": "4400",
     "metadataUrl": "/data/lang/metadata.json",
     "available": {
       "en": "/data/lang/en.json",
