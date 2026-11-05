@@ -170,6 +170,20 @@
       "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_02.ggs",
       "file": "/data/preclient/items/items_4144021_788_RC_02.json",
       "latestFile": "/data/preclient/items_latest.json"
+    },
+    {
+      "source": "preclient",
+      "releaseChannel": "preclient",
+      "loaderSource": "discovery-config",
+      "appVersion": "4145051",
+      "appStoreVersion": "4.144.21",
+      "appStoreLoaderVersion": "4144021",
+      "itemVersion": "789.RC.01",
+      "addedAt": "2026-11-05T20:34:26.148Z",
+      "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4145051/versions.json",
+      "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4145051/itemsXML/items_789_RC_01.ggs",
+      "file": "/data/preclient/items/items_4145051_789_RC_01.json",
+      "latestFile": "/data/preclient/items_latest.json"
     }
   ]
 }
