@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "loaderVersion": "4144021",
-  "itemVersion": "788.RC.03",
+  "loaderVersion": "4145051",
+  "itemVersion": "789.RC.01",
   "resolution": "x768",
   "folders": [
     "Buildings",
@@ -11,12 +11,12 @@
     "WorldmapObjects"
   ],
   "packages": [
-    "https://media-s3.goodgamestudios.com/loader/4144021/itemAssets/package_0_x768.ggs",
-    "https://media-s3.goodgamestudios.com/loader/4144021/itemAssets/package_1_x768.ggs",
-    "https://media-s3.goodgamestudios.com/loader/4144021/itemAssets/package_2_x768.ggs"
+    "https://media-s3.goodgamestudios.com/loader/4145051/itemAssets/package_0_x768.ggs",
+    "https://media-s3.goodgamestudios.com/loader/4145051/itemAssets/package_1_x768.ggs",
+    "https://media-s3.goodgamestudios.com/loader/4145051/itemAssets/package_2_x768.ggs"
   ],
-  "count": 3578,
-  "bytes": 48509068,
+  "count": 3645,
+  "bytes": 50519139,
   "assets": [
     {
       "path": "BuildingSkins/AnniversaryBWorkshop/AnniversaryBWorkshop.png",
@@ -3715,6 +3715,14 @@
       "sha256": "6d787fa301da19a9424fa8930a32e819332e455d3c977c7df54c2f67f8cf1454"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedGreenFallenColossus/Deco_Building_ExaltedGreenFallenColossus.png",
+      "file": "files/9510d4c6b2076b0b067c05e99ec02a58196f59c3a3a6ccdaa867b8840cbeb5f3.png",
+      "package": 0,
+      "bytes": 19220,
+      "crc32": 2150702236,
+      "sha256": "9510d4c6b2076b0b067c05e99ec02a58196f59c3a3a6ccdaa867b8840cbeb5f3"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedGreenFireworksSpire/Deco_Building_ExaltedGreenFireworksSpire.png",
       "file": "files/832727eece1c8b56091a74fbbc30c4febc7e51b123ca14d7d1beb3790b232b96.png",
       "package": 0,
@@ -3859,6 +3867,14 @@
       "sha256": "e4fcbb51ead15d0c1943e1ba14146bd34c1d41fe0c0add4205be4a8b036986ca"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedGreenKnightlyFeastCourt/Deco_Building_ExaltedGreenKnightlyFeastCourt.png",
+      "file": "files/7a8b58ece4141a356329602b4a02422d0f69268deacfef73c2f28c5a74cf0c57.png",
+      "package": 0,
+      "bytes": 59911,
+      "crc32": 1086611778,
+      "sha256": "7a8b58ece4141a356329602b4a02422d0f69268deacfef73c2f28c5a74cf0c57"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedGreenLavaMountainOfWrath/Deco_Building_ExaltedGreenLavaMountainOfWrath.png",
       "file": "files/38b8665afd613a702a54f5ac65716b0a531d2f47e1b297acc31e4f8e2225c56b.png",
       "package": 0,
@@ -3897,6 +3913,14 @@
       "bytes": 23867,
       "crc32": 3174879356,
       "sha256": "9a75f472d836cfc220792e5d9bc056914351eb2116b8da9597d79ee597c12da5"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedGreenLuxuriousMarket/Deco_Building_ExaltedGreenLuxuriousMarket.png",
+      "file": "files/c07686c18adb945aafdd46509fee21b17e0576926130730241f5b49562b02cfb.png",
+      "package": 0,
+      "bytes": 73823,
+      "crc32": 3095083542,
+      "sha256": "c07686c18adb945aafdd46509fee21b17e0576926130730241f5b49562b02cfb"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedGreenOktoberfestBeerMill/Deco_Building_ExaltedGreenOktoberfestBeerMill.png",
@@ -3987,6 +4011,14 @@
       "sha256": "5fee24e2e07e2bc74fe1705f717e6becd15f4b2e4e0c49689130097792bd59f6"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedGreenShieldKnight/Deco_Building_ExaltedGreenShieldKnight.png",
+      "file": "files/e8fdf5cce8df48948f653a01ed724c8beb0056e03def96700b6d4c286400a75b.png",
+      "package": 0,
+      "bytes": 57004,
+      "crc32": 370767174,
+      "sha256": "e8fdf5cce8df48948f653a01ed724c8beb0056e03def96700b6d4c286400a75b"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedGreenSpookyCrypt/Deco_Building_ExaltedGreenSpookyCrypt.png",
       "file": "files/e10db8855d881a0556b44f93e74c8795a0b6dbd672a7a77a4630a6c9f253b4b7.png",
       "package": 0,
@@ -4017,6 +4049,14 @@
       "bytes": 29820,
       "crc32": 1164001275,
       "sha256": "6421cc5f9e06e610fb52f18492c1c3abaca75ee237bd1d2ab6f31689c39611f6"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedGreenSwordKnight/Deco_Building_ExaltedGreenSwordKnight.png",
+      "file": "files/3fb457f6cae96d74226b58df567d735f5ee0fdb3667e82c85cb9421c22056a00.png",
+      "package": 0,
+      "bytes": 60631,
+      "crc32": 3018689045,
+      "sha256": "3fb457f6cae96d74226b58df567d735f5ee0fdb3667e82c85cb9421c22056a00"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedGreenTamingofthewild/Deco_Building_ExaltedGreenTamingofthewild.png",
@@ -4065,6 +4105,14 @@
       "bytes": 77371,
       "crc32": 2717901993,
       "sha256": "943de9b3d0d69c403092af4febb046d9bce04d0bf761195cd1b448cf672f75e1"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedGreenWaterfallPavilion/Deco_Building_ExaltedGreenWaterfallPavilion.png",
+      "file": "files/9596cee97f51c93cab136b1b64e187d40e53b2726b56dd94a4b77bd8fdb414ca.png",
+      "package": 0,
+      "bytes": 72945,
+      "crc32": 1136415967,
+      "sha256": "9596cee97f51c93cab136b1b64e187d40e53b2726b56dd94a4b77bd8fdb414ca"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedGreenWatermelonRollercoaster/Deco_Building_ExaltedGreenWatermelonRollercoaster.png",
@@ -4243,6 +4291,14 @@
       "sha256": "1b8e34f9524ca71de2f7525ae46f87ad0581672094118df977d9d00eb8d0d1e6"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedPurpleFallenColossus/Deco_Building_ExaltedPurpleFallenColossus.png",
+      "file": "files/ac05e13b44286c0d248fcb7ad03186e4776c1c72e9bcb0aeb419dd20e4514861.png",
+      "package": 0,
+      "bytes": 19447,
+      "crc32": 2573068100,
+      "sha256": "ac05e13b44286c0d248fcb7ad03186e4776c1c72e9bcb0aeb419dd20e4514861"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedPurpleFireworksSpire/Deco_Building_ExaltedPurpleFireworksSpire.png",
       "file": "files/9c384e7e851aa456ac796445659e60acd27c4aee671facde1ed700d1d465e541.png",
       "package": 0,
@@ -4355,6 +4411,14 @@
       "sha256": "27462919acb6da03331da6401baff215c2857fac05d2785dead44928825a4e9e"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedPurpleKnightlyFeastCourt/Deco_Building_ExaltedPurpleKnightlyFeastCourt.png",
+      "file": "files/84913f913ea3cea63cf12c873d024fabd01ddbe27bd9dc26383ceea5613a58a7.png",
+      "package": 0,
+      "bytes": 60701,
+      "crc32": 3600829540,
+      "sha256": "84913f913ea3cea63cf12c873d024fabd01ddbe27bd9dc26383ceea5613a58a7"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedPurpleLavaMountainOfWrath/Deco_Building_ExaltedPurpleLavaMountainOfWrath.png",
       "file": "files/8403e886f8b8287b1a78604c12edaf9fccbd97620d2f8b0f8d76b908ed9db21a.png",
       "package": 0,
@@ -4385,6 +4449,14 @@
       "bytes": 62032,
       "crc32": 2626025204,
       "sha256": "20213c870da10ef9fb298b062078a57296323622396fbeff929c5427efd742f0"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedPurpleLuxuriousMarket/Deco_Building_ExaltedPurpleLuxuriousMarket.png",
+      "file": "files/146d63661966cc2d42e5e837e861a442f6e76b7d4b72c100aaabf06f1dec60f1.png",
+      "package": 0,
+      "bytes": 74341,
+      "crc32": 550615820,
+      "sha256": "146d63661966cc2d42e5e837e861a442f6e76b7d4b72c100aaabf06f1dec60f1"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedPurpleOktoberfestBeerMill/Deco_Building_ExaltedPurpleOktoberfestBeerMill.png",
@@ -4459,6 +4531,14 @@
       "sha256": "7fa06ea8a98d79fb60c2ed4516957074fd70c2c90ed3c3e4d8e4de137d02cd9d"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedPurpleShieldKnight/Deco_Building_ExaltedPurpleShieldKnight.png",
+      "file": "files/fa2872fe9eea25dd6b9077f09c356265cf3990fb34c12918ab5a79e9f463e184.png",
+      "package": 0,
+      "bytes": 56399,
+      "crc32": 2671554462,
+      "sha256": "fa2872fe9eea25dd6b9077f09c356265cf3990fb34c12918ab5a79e9f463e184"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedPurpleSpookyCrypt/Deco_Building_ExaltedPurpleSpookyCrypt.png",
       "file": "files/bc36e69dbd7d7171b926f17671341e32cd0081495ace4fd22bfa222538a3386e.png",
       "package": 0,
@@ -4489,6 +4569,14 @@
       "bytes": 29407,
       "crc32": 2567662064,
       "sha256": "a3a6f3c8250e884fc2d0b43c3d997e4f31a08cd05075a293356393342cd7c686"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedPurpleSwordKnight/Deco_Building_ExaltedPurpleSwordKnight.png",
+      "file": "files/245d28c6249a11be76e5e89997606ede4ffd6b7e23e14b91bc0b0545d6a7b4d7.png",
+      "package": 0,
+      "bytes": 58384,
+      "crc32": 2683117488,
+      "sha256": "245d28c6249a11be76e5e89997606ede4ffd6b7e23e14b91bc0b0545d6a7b4d7"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedPurpleTamingofthewild/Deco_Building_ExaltedPurpleTamingofthewild.png",
@@ -4537,6 +4625,14 @@
       "bytes": 77211,
       "crc32": 1463796219,
       "sha256": "b231607fad59e83503efedd304b05ad34a04fa2eb1ff9baac9a95497b076634f"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedPurpleWaterfallPavilion/Deco_Building_ExaltedPurpleWaterfallPavilion.png",
+      "file": "files/274f7cb56d66b30d88f768461ae02611bd0dc5513331d315ec29242e7703a7f1.png",
+      "package": 0,
+      "bytes": 72922,
+      "crc32": 520859816,
+      "sha256": "274f7cb56d66b30d88f768461ae02611bd0dc5513331d315ec29242e7703a7f1"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedPurpleWatermelonRollercoaster/Deco_Building_ExaltedPurpleWatermelonRollercoaster.png",
@@ -4667,6 +4763,14 @@
       "sha256": "463cabdfb829f52b2263cd5fe7cca74c4fd703dbdf924beefa9d8e3fa6f2c34d"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedRedFallenColossus/Deco_Building_ExaltedRedFallenColossus.png",
+      "file": "files/0df1fd5fdd24e19b3c0ecc224f06c65ad41f2954f86adbc6509f88fda46d54d4.png",
+      "package": 0,
+      "bytes": 19262,
+      "crc32": 121704047,
+      "sha256": "0df1fd5fdd24e19b3c0ecc224f06c65ad41f2954f86adbc6509f88fda46d54d4"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedRedFireworksSpire/Deco_Building_ExaltedRedFireworksSpire.png",
       "file": "files/eeb097b023168257e396c2e6bacb559795a37f9602f4f3c28596cb90596cb640.png",
       "package": 0,
@@ -4787,6 +4891,14 @@
       "sha256": "a1cbf9762295bae3df40a784c82a80bc336062b455c46f00894c531bdb532b49"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedRedKnightlyFeastCourt/Deco_Building_ExaltedRedKnightlyFeastCourt.png",
+      "file": "files/7451b2a7ba0e95ff51bc29f82062bd2d23d5068dec3a56299ebac3eaa1c99e9f.png",
+      "package": 0,
+      "bytes": 60102,
+      "crc32": 1208499619,
+      "sha256": "7451b2a7ba0e95ff51bc29f82062bd2d23d5068dec3a56299ebac3eaa1c99e9f"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedRedLavaMountainOfWrath/Deco_Building_ExaltedRedLavaMountainOfWrath.png",
       "file": "files/e068473813a1c49c65c364d7ef064bdff961df6c6214561666cae7a7eca64a52.png",
       "package": 0,
@@ -4817,6 +4929,14 @@
       "bytes": 60106,
       "crc32": 1031338144,
       "sha256": "5176631d8915e74605eee01759dfb2b86ff71e1b034aced2ab17d1bc34c294f0"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedRedLuxuriousMarket/Deco_Building_ExaltedRedLuxuriousMarket.png",
+      "file": "files/9b551a9859d79de8e3ff8e45594e8f8e0269e6796b07d34bdece5df482f5cfb8.png",
+      "package": 0,
+      "bytes": 73502,
+      "crc32": 507105114,
+      "sha256": "9b551a9859d79de8e3ff8e45594e8f8e0269e6796b07d34bdece5df482f5cfb8"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedRedOktoberfestBeerMill/Deco_Building_ExaltedRedOktoberfestBeerMill.png",
@@ -4891,6 +5011,14 @@
       "sha256": "d9e4a43cad77cbe62b549a7c0861f0bb595d0382bbf5c1dff3c973e08eff20c8"
     },
     {
+      "path": "Buildings/Deco/Deco_Building_ExaltedRedShieldKnight/Deco_Building_ExaltedRedShieldKnight.png",
+      "file": "files/4fcebaa45aa2f22705123678563dbf3e549f58d696742d6c15209b471ef3b590.png",
+      "package": 0,
+      "bytes": 55792,
+      "crc32": 1464745597,
+      "sha256": "4fcebaa45aa2f22705123678563dbf3e549f58d696742d6c15209b471ef3b590"
+    },
+    {
       "path": "Buildings/Deco/Deco_Building_ExaltedRedSpookyCrypt/Deco_Building_ExaltedRedSpookyCrypt.png",
       "file": "files/8460da39bcc25b39636b2131a04cbb4b2a8b182eec5ebc65c00ca52d03cbc452.png",
       "package": 0,
@@ -4921,6 +5049,14 @@
       "bytes": 29482,
       "crc32": 3553297296,
       "sha256": "c0f947568817a990b7ac1df890f6dcebab97b30f459007d7809b24004d13edbb"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedRedSwordKnight/Deco_Building_ExaltedRedSwordKnight.png",
+      "file": "files/9e6ad1e1f1ccf14e33e5f54d53209fbd1b217db876a6a6f6c16b0d94e97207f9.png",
+      "package": 0,
+      "bytes": 58792,
+      "crc32": 2979026117,
+      "sha256": "9e6ad1e1f1ccf14e33e5f54d53209fbd1b217db876a6a6f6c16b0d94e97207f9"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedRedTamingofthewild/Deco_Building_ExaltedRedTamingofthewild.png",
@@ -4961,6 +5097,14 @@
       "bytes": 76911,
       "crc32": 252050044,
       "sha256": "94b70c093f312eabd12db075d17bb7ca66a668aa352ca7ebd4379af428ba1708"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_ExaltedRedWaterfallPavilion/Deco_Building_ExaltedRedWaterfallPavilion.png",
+      "file": "files/a7e03a218aa06df96d96c49e809859927514b6159e00ae65635f797751515e57.png",
+      "package": 0,
+      "bytes": 71786,
+      "crc32": 1013854170,
+      "sha256": "a7e03a218aa06df96d96c49e809859927514b6159e00ae65635f797751515e57"
     },
     {
       "path": "Buildings/Deco/Deco_Building_ExaltedRedWatermelonRollercoaster/Deco_Building_ExaltedRedWatermelonRollercoaster.png",
@@ -5017,6 +5161,14 @@
       "bytes": 17123,
       "crc32": 2588766013,
       "sha256": "9a4c9a5713f6b523c20a3bbb1939b519f91ef671f74db4f3ee72824beab46d4f"
+    },
+    {
+      "path": "Buildings/Deco/Deco_Building_FallenColossus/Deco_Building_FallenColossus.png",
+      "file": "files/5e95675b9b329201e43f2ba2c2ba089433cfee89c79a675318ba4f1bfb7dfe0a.png",
+      "package": 0,
+      "bytes": 16668,
+      "crc32": 4051177134,
+      "sha256": "5e95675b9b329201e43f2ba2c2ba089433cfee89c79a675318ba4f1bfb7dfe0a"
     },
     {
       "path": "Buildings/Deco/Deco_Building_FallenGiant/Deco_Building_FallenGiant.png",
@@ -8049,6 +8201,14 @@
       "bytes": 14541,
       "crc32": 358304886,
       "sha256": "33f45d0491af8649b0885e85036855d46c6d9b0c39dbde78413688e25e24b0b5"
+    },
+    {
+      "path": "Buildings/Event/Event_Building_HorseColossusConstructor/Event_Building_HorseColossusConstructor.png",
+      "file": "files/8dccdff2007c6699bbc715ea41164a2bd757a6dd307fc9f5ec4aa1eccdb4e465.png",
+      "package": 0,
+      "bytes": 14148,
+      "crc32": 1889934726,
+      "sha256": "8dccdff2007c6699bbc715ea41164a2bd757a6dd307fc9f5ec4aa1eccdb4e465"
     },
     {
       "path": "Buildings/Event/Event_Building_IndiaEventCamp/Event_Building_IndiaEventCamp.png",
@@ -16531,6 +16691,126 @@
       "sha256": "552e56316e72290d046036e071fbaf30b4c956391ae28221a34582138c405066"
     },
     {
+      "path": "Equipment/EquipmentShared/items_unique_1593_Shared.png",
+      "file": "files/5cd264eeccebfd58172f2afa2d348a62f42505b95118ea92faa7a035c36b6343.png",
+      "package": 1,
+      "bytes": 9858,
+      "crc32": 2066601672,
+      "sha256": "5cd264eeccebfd58172f2afa2d348a62f42505b95118ea92faa7a035c36b6343"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1594_Shared.png",
+      "file": "files/3d248b79769caf464fb66089d2b981586ebbf371f494621450277945dcb6b038.png",
+      "package": 1,
+      "bytes": 10888,
+      "crc32": 1573287118,
+      "sha256": "3d248b79769caf464fb66089d2b981586ebbf371f494621450277945dcb6b038"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1595_Shared.png",
+      "file": "files/ba191402fc843fa9c8309dd0b7af3a367aafddb38749e62e0fcede930a16cee0.png",
+      "package": 1,
+      "bytes": 20718,
+      "crc32": 3944068432,
+      "sha256": "ba191402fc843fa9c8309dd0b7af3a367aafddb38749e62e0fcede930a16cee0"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1596_Shared.png",
+      "file": "files/f1142c59baae80d4d1f7d66e9b09ea81595a4f647f6e0ad8c438c31a4b044ca5.png",
+      "package": 1,
+      "bytes": 21426,
+      "crc32": 1530792337,
+      "sha256": "f1142c59baae80d4d1f7d66e9b09ea81595a4f647f6e0ad8c438c31a4b044ca5"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1597_Shared.png",
+      "file": "files/c381a8840751894db18d4bebc8e3099fa154aa152af5cc414acebff9caa6eb26.png",
+      "package": 1,
+      "bytes": 12965,
+      "crc32": 3336386158,
+      "sha256": "c381a8840751894db18d4bebc8e3099fa154aa152af5cc414acebff9caa6eb26"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1598_Shared.png",
+      "file": "files/154d481465ab0d6aa8f24a16ee11923ea929678ac0df9637df96a02c3492ddfc.png",
+      "package": 1,
+      "bytes": 18686,
+      "crc32": 848919528,
+      "sha256": "154d481465ab0d6aa8f24a16ee11923ea929678ac0df9637df96a02c3492ddfc"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1600_Shared.png",
+      "file": "files/29af30fe175374bc67d53127508375655dafc58e74c7448cd0528ffe7c4e2daa.png",
+      "package": 1,
+      "bytes": 19956,
+      "crc32": 1290950481,
+      "sha256": "29af30fe175374bc67d53127508375655dafc58e74c7448cd0528ffe7c4e2daa"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1601_Shared.png",
+      "file": "files/b379574e1d65cc91539708fc5b9d034850d2d34525242e7a6cb0cb4873c95cfc.png",
+      "package": 1,
+      "bytes": 23683,
+      "crc32": 4080485181,
+      "sha256": "b379574e1d65cc91539708fc5b9d034850d2d34525242e7a6cb0cb4873c95cfc"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1602_Shared.png",
+      "file": "files/9db6ad6363b807c33faf3ae43ae8eabcb3ed3dce2f2bc0072964b279114ae281.png",
+      "package": 1,
+      "bytes": 13884,
+      "crc32": 956919662,
+      "sha256": "9db6ad6363b807c33faf3ae43ae8eabcb3ed3dce2f2bc0072964b279114ae281"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1603_Shared.png",
+      "file": "files/4b697f815027c766fea489eea212cf508607f168f628641f070a28cfdbcdeebc.png",
+      "package": 1,
+      "bytes": 20088,
+      "crc32": 1718844063,
+      "sha256": "4b697f815027c766fea489eea212cf508607f168f628641f070a28cfdbcdeebc"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1605_Shared.png",
+      "file": "files/9d99e6066f2aac8d44ab33ac208a944c28e171519e8b2698f7f4a2695ce893f6.png",
+      "package": 1,
+      "bytes": 21984,
+      "crc32": 1095022050,
+      "sha256": "9d99e6066f2aac8d44ab33ac208a944c28e171519e8b2698f7f4a2695ce893f6"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1606_Shared.png",
+      "file": "files/a168e86e146c351f335c9aad1740efeaff5b988174c03758c59c32f67b6916e9.png",
+      "package": 1,
+      "bytes": 23674,
+      "crc32": 1329693171,
+      "sha256": "a168e86e146c351f335c9aad1740efeaff5b988174c03758c59c32f67b6916e9"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1607_Shared.png",
+      "file": "files/29df0f63f22e64ece23e2e40c36cb8e023a920496e6e0213b67e9cad7d5ffac9.png",
+      "package": 1,
+      "bytes": 13914,
+      "crc32": 2898992922,
+      "sha256": "29df0f63f22e64ece23e2e40c36cb8e023a920496e6e0213b67e9cad7d5ffac9"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1608_Shared.png",
+      "file": "files/54329941c672edacc81cfeaeda9a4c7cd981f35f221ca81531257286e0de8cfb.png",
+      "package": 1,
+      "bytes": 19970,
+      "crc32": 160122042,
+      "sha256": "54329941c672edacc81cfeaeda9a4c7cd981f35f221ca81531257286e0de8cfb"
+    },
+    {
+      "path": "Equipment/EquipmentShared/items_unique_1612_Shared.png",
+      "file": "files/7837a5eb0c0965059b0e559d6ca49b511139b2704539a2277ae337590d93ff69.png",
+      "package": 1,
+      "bytes": 22470,
+      "crc32": 1721858127,
+      "sha256": "7837a5eb0c0965059b0e559d6ca49b511139b2704539a2277ae337590d93ff69"
+    },
+    {
       "path": "Equipment/EquipmentShared/items_unique_2004_Shared.png",
       "file": "files/6a57bc1dac78d0e27adb50feb702c8f3f7d0ebe77913397307c1a6a7e96bff11.png",
       "package": 0,
@@ -18273,6 +18553,110 @@
       "bytes": 13451,
       "crc32": 1578817443,
       "sha256": "017c23b2d0decda0f41021713e77e87871770aa149bc7ba2ef9ee38031eb672a"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_526.png",
+      "file": "files/062cf29e56f622771a3450eb7f8222e294e4cd47c4ebcd1ebd89caef2e98bbf2.png",
+      "package": 1,
+      "bytes": 13061,
+      "crc32": 3158251270,
+      "sha256": "062cf29e56f622771a3450eb7f8222e294e4cd47c4ebcd1ebd89caef2e98bbf2"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_527.png",
+      "file": "files/75351c4e3bae52b6a869e09561ded1a271a276a5641c18c4181e54e533fffc65.png",
+      "package": 1,
+      "bytes": 14213,
+      "crc32": 1661511467,
+      "sha256": "75351c4e3bae52b6a869e09561ded1a271a276a5641c18c4181e54e533fffc65"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_528.png",
+      "file": "files/c40aa45978f65d168584189811f8368780ce134a59b5833febbb57d8cd909332.png",
+      "package": 1,
+      "bytes": 14425,
+      "crc32": 3459773906,
+      "sha256": "c40aa45978f65d168584189811f8368780ce134a59b5833febbb57d8cd909332"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_529.png",
+      "file": "files/c278ce8732606875e9295b465c38db891cc68095d4ed675fd3e5648ed240be1e.png",
+      "package": 1,
+      "bytes": 16077,
+      "crc32": 1348667356,
+      "sha256": "c278ce8732606875e9295b465c38db891cc68095d4ed675fd3e5648ed240be1e"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_530.png",
+      "file": "files/9d50c21c92278ccd7561471a37f16cc4869720c395bfac58508ab97b62ca7d0e.png",
+      "package": 1,
+      "bytes": 13425,
+      "crc32": 1797763296,
+      "sha256": "9d50c21c92278ccd7561471a37f16cc4869720c395bfac58508ab97b62ca7d0e"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_531.png",
+      "file": "files/1ac98474eb408c1fb83de254fd29d8589588dd2d97f3c9408c2513f62340be1b.png",
+      "package": 1,
+      "bytes": 13998,
+      "crc32": 1364569600,
+      "sha256": "1ac98474eb408c1fb83de254fd29d8589588dd2d97f3c9408c2513f62340be1b"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_532.png",
+      "file": "files/b62f3ab77bfab77b0dcf289d79aaf4bd4e4687b3e8c0e202b8a2f4bb1db1b8f7.png",
+      "package": 1,
+      "bytes": 13866,
+      "crc32": 720969354,
+      "sha256": "b62f3ab77bfab77b0dcf289d79aaf4bd4e4687b3e8c0e202b8a2f4bb1db1b8f7"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_533.png",
+      "file": "files/d958851cd438e597f469deaa6b4e2da955d79f0b9c25fee003c8cf70b53fdba5.png",
+      "package": 1,
+      "bytes": 17119,
+      "crc32": 3138569059,
+      "sha256": "d958851cd438e597f469deaa6b4e2da955d79f0b9c25fee003c8cf70b53fdba5"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_534.png",
+      "file": "files/21d372f39d7594754459dadb71b44564f8ebff4311af5fb92370954baa359966.png",
+      "package": 1,
+      "bytes": 14029,
+      "crc32": 119829518,
+      "sha256": "21d372f39d7594754459dadb71b44564f8ebff4311af5fb92370954baa359966"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_535.png",
+      "file": "files/5d2479dbc92dbcf8a02a2350a49a7daa6d62e26408234080961a1196304ea0bf.png",
+      "package": 1,
+      "bytes": 13776,
+      "crc32": 450446936,
+      "sha256": "5d2479dbc92dbcf8a02a2350a49a7daa6d62e26408234080961a1196304ea0bf"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_536.png",
+      "file": "files/298fe78f43688825efbac230eefc4434647cca4d60af7faa3cfa34fb1b38f4de.png",
+      "package": 1,
+      "bytes": 14636,
+      "crc32": 1191275142,
+      "sha256": "298fe78f43688825efbac230eefc4434647cca4d60af7faa3cfa34fb1b38f4de"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_537.png",
+      "file": "files/4264c42b6da470edad71eb6d8fe9d4cd99e6bbdd06184322aa36ccc12142c12f.png",
+      "package": 1,
+      "bytes": 16964,
+      "crc32": 2976764016,
+      "sha256": "4264c42b6da470edad71eb6d8fe9d4cd99e6bbdd06184322aa36ccc12142c12f"
+    },
+    {
+      "path": "Equipment/UniqueGems/Item_Gem_Unique_538.png",
+      "file": "files/31a19c98b35bbe3c6558a43c67fdf7243f4d5c8516b36c441f5a88ba6ae14b94.png",
+      "package": 1,
+      "bytes": 15084,
+      "crc32": 2521675676,
+      "sha256": "31a19c98b35bbe3c6558a43c67fdf7243f4d5c8516b36c441f5a88ba6ae14b94"
     },
     {
       "path": "Equipment/UniqueGems/Item_Gem_Unique_70.png",
@@ -21179,6 +21563,62 @@
       "sha256": "1da65a491c177a4565f085ed339509e2b56916641a0ae8ac1686133af0d5ec1f"
     },
     {
+      "path": "Units/UnitAssets/Eventunit_Unit_BtHGatherer.png",
+      "file": "files/15b996cf9519d555f69f54053abc16f2889e45fb70cb8b9d60ed56e2e43a411b.png",
+      "package": 1,
+      "bytes": 58258,
+      "crc32": 1127095845,
+      "sha256": "15b996cf9519d555f69f54053abc16f2889e45fb70cb8b9d60ed56e2e43a411b"
+    },
+    {
+      "path": "Units/UnitAssets/Eventunit_Unit_BthMeleeAttacker.png",
+      "file": "files/68e12cb72ef7c6f4beb792e00d47e15bed60411a82be68f82d3f37f1f6305a1f.png",
+      "package": 2,
+      "bytes": 57992,
+      "crc32": 1662655309,
+      "sha256": "68e12cb72ef7c6f4beb792e00d47e15bed60411a82be68f82d3f37f1f6305a1f"
+    },
+    {
+      "path": "Units/UnitAssets/Eventunit_Unit_BthMeleeDefender.png",
+      "file": "files/f9d44b57b97d6991521ab5119ec3621fb601d6a4609d5e5741d3abe2fb211344.png",
+      "package": 2,
+      "bytes": 61750,
+      "crc32": 4288829086,
+      "sha256": "f9d44b57b97d6991521ab5119ec3621fb601d6a4609d5e5741d3abe2fb211344"
+    },
+    {
+      "path": "Units/UnitAssets/Eventunit_Unit_BthNPCMeleeDefender.png",
+      "file": "files/637733d640d43ff3b0ddf156f9eeeaa32552386a435ea645f550b9383998c4f1.png",
+      "package": 2,
+      "bytes": 54511,
+      "crc32": 1691093309,
+      "sha256": "637733d640d43ff3b0ddf156f9eeeaa32552386a435ea645f550b9383998c4f1"
+    },
+    {
+      "path": "Units/UnitAssets/Eventunit_Unit_BthNPCRangeDefender.png",
+      "file": "files/42fdc8c985a0622dc740c3a8caafea8f452e1ae061826875d391af1c6da0df00.png",
+      "package": 2,
+      "bytes": 53290,
+      "crc32": 1040399803,
+      "sha256": "42fdc8c985a0622dc740c3a8caafea8f452e1ae061826875d391af1c6da0df00"
+    },
+    {
+      "path": "Units/UnitAssets/Eventunit_Unit_BthRangeAttacker.png",
+      "file": "files/40909e553b29ed4b1cd454c3804f6194d8f38736fbe425a1527ddb8804c01ccc.png",
+      "package": 2,
+      "bytes": 52606,
+      "crc32": 87767673,
+      "sha256": "40909e553b29ed4b1cd454c3804f6194d8f38736fbe425a1527ddb8804c01ccc"
+    },
+    {
+      "path": "Units/UnitAssets/Eventunit_Unit_BthRangeDefender.png",
+      "file": "files/b1ecfec33c7244568c24ca2fb9040e7c59eb131d0d7d76d482b539adb359dc40.png",
+      "package": 2,
+      "bytes": 54953,
+      "crc32": 595512106,
+      "sha256": "b1ecfec33c7244568c24ca2fb9040e7c59eb131d0d7d76d482b539adb359dc40"
+    },
+    {
       "path": "Units/UnitAssets/Eventunit_Unit_CaskMarksmann.png",
       "file": "files/c7ce3eba5f67d7a1f45bd4fad71004c4558bb4b41b76e85de430b6fe2c65379f.png",
       "package": 0,
@@ -23211,6 +23651,14 @@
       "sha256": "1f971f47482cf39f172e1c12f534de28a25f71d5becc854e1408ddb235d6c07a"
     },
     {
+      "path": "WorldmapObjects/Castles/Castle/Castle_Mapobject_Special_LuxuriousMarket.png",
+      "file": "files/577f0fb84c7221e71f36e67d133468039f171e72e6e48f4869e3eed792ccd237.png",
+      "package": 0,
+      "bytes": 8950,
+      "crc32": 826787586,
+      "sha256": "577f0fb84c7221e71f36e67d133468039f171e72e6e48f4869e3eed792ccd237"
+    },
+    {
       "path": "WorldmapObjects/Castles/Castle/Castle_Mapobject_Special_MayaInsignia.png",
       "file": "files/3eff8a0c74513913b311812ca709fc0f40da7b51c79740e01b0a84d81400b915.png",
       "package": 2,
@@ -24603,6 +25051,62 @@
       "sha256": "8c2a11a8957a46a6477619b79283c9f2afd9426dff6c1d6fb013172db5c13803"
     },
     {
+      "path": "WorldmapObjects/Events/JadeOasis_Cooldown/JadeOasis_Cooldown.png",
+      "file": "files/eb49bce6e6d5761fbff61eeaf9d8f224cebb48394008052a22d23f6792381013.png",
+      "package": 2,
+      "bytes": 2832,
+      "crc32": 1717761897,
+      "sha256": "eb49bce6e6d5761fbff61eeaf9d8f224cebb48394008052a22d23f6792381013"
+    },
+    {
+      "path": "WorldmapObjects/Events/JadeOasis_Mapobjects/JadeOasis_Mapobject.png",
+      "file": "files/7464de23893f9380547db7c9fb9f51dd594c6d958ff695ef46de4239b4a9f90c.png",
+      "package": 2,
+      "bytes": 3195,
+      "crc32": 2130536070,
+      "sha256": "7464de23893f9380547db7c9fb9f51dd594c6d958ff695ef46de4239b4a9f90c"
+    },
+    {
+      "path": "WorldmapObjects/Events/JadePalaceFortress_Mapobjects/JadePalaceFortress_FlamesLayer.png",
+      "file": "files/cbc349af3561d1f279ed26d4cdd119254f6f1932f0f3f6f550a1cd84a54fea4e.png",
+      "package": 2,
+      "bytes": 1544,
+      "crc32": 3490498268,
+      "sha256": "cbc349af3561d1f279ed26d4cdd119254f6f1932f0f3f6f550a1cd84a54fea4e"
+    },
+    {
+      "path": "WorldmapObjects/Events/JadePalaceFortress_Mapobjects/JadePalaceFortress_Mapobjects.png",
+      "file": "files/28b457d9178cb72a92e49fd9b83f88bc2708865d3ff7c28d6263c194db8717ac.png",
+      "package": 2,
+      "bytes": 4369,
+      "crc32": 3874014973,
+      "sha256": "28b457d9178cb72a92e49fd9b83f88bc2708865d3ff7c28d6263c194db8717ac"
+    },
+    {
+      "path": "WorldmapObjects/Events/JadePalaceFortress_Mapobjects/JadePalaceFortress_Resource_RawJadeite.png",
+      "file": "files/a6fca10b45575f17d29ab09af54291dd9daa2ed423fb7f22645bff0eb97fa8ae.png",
+      "package": 2,
+      "bytes": 834,
+      "crc32": 2290480593,
+      "sha256": "a6fca10b45575f17d29ab09af54291dd9daa2ed423fb7f22645bff0eb97fa8ae"
+    },
+    {
+      "path": "WorldmapObjects/Events/JadePalaceFortress_Mapobjects/JadePalaceFortress_Resource_RawSilk.png",
+      "file": "files/17f5f65d5fd18ea2f1fa7b2c1418dacbd71dc67dbd55c489b1711b72316f4444.png",
+      "package": 2,
+      "bytes": 764,
+      "crc32": 137926510,
+      "sha256": "17f5f65d5fd18ea2f1fa7b2c1418dacbd71dc67dbd55c489b1711b72316f4444"
+    },
+    {
+      "path": "WorldmapObjects/Events/JadePalaceFortress_Mapobjects/JadePalaceFortress_Resource_Varnish.png",
+      "file": "files/3e6d7a9aa1a9064e303fec288f4854377781938c67247ca36862d79141cba164.png",
+      "package": 2,
+      "bytes": 778,
+      "crc32": 1105750798,
+      "sha256": "3e6d7a9aa1a9064e303fec288f4854377781938c67247ca36862d79141cba164"
+    },
+    {
       "path": "WorldmapObjects/Events/NomadInvasion_Mapobject/Nomad_Mapobject.png",
       "file": "files/1ada546c7d3b4fd095c261d9a35af5d3ec6b5be9862c479d7db91e9fa7d574ba.png",
       "package": 1,
@@ -25353,6 +25857,14 @@
       "bytes": 5310,
       "crc32": 1857126569,
       "sha256": "06b49eaed778c70b0387bb240a163b67eec3d0abda7e0bd8bab32b6eac614ba7"
+    },
+    {
+      "path": "WorldmapObjects/Landmarks/Capital_Mapobject_Basic/Castle_Mapobject_Capital_Classic_Special_LuxuriousMarket.png",
+      "file": "files/b6470f82a3e07546ff1fae2f464ef879d0d6dd103a6400b77c67b072e52a4e4a.png",
+      "package": 0,
+      "bytes": 23055,
+      "crc32": 1337877678,
+      "sha256": "b6470f82a3e07546ff1fae2f464ef879d0d6dd103a6400b77c67b072e52a4e4a"
     },
     {
       "path": "WorldmapObjects/Landmarks/Capital_Mapobject_Basic/Castle_Mapobject_Capital_Classic_Special_MayaInsignia.png",
@@ -26185,6 +26697,14 @@
       "bytes": 3920,
       "crc32": 4242868957,
       "sha256": "1bb3ce2327493f26c6dc5a1ef10c351bb8b0a16f7ab01fe766125bb66568cec3"
+    },
+    {
+      "path": "WorldmapObjects/Landmarks/Metropol_Mapobject_Basic/Metropol_Mapobject_Basic_Special_LuxuriousMarket.png",
+      "file": "files/536e9f44adf7b8b217d962208d15a91c5f73e86dea8a8eb242be6926f93872b4.png",
+      "package": 0,
+      "bytes": 16308,
+      "crc32": 3381167662,
+      "sha256": "536e9f44adf7b8b217d962208d15a91c5f73e86dea8a8eb242be6926f93872b4"
     },
     {
       "path": "WorldmapObjects/Landmarks/Metropol_Mapobject_Basic/Metropol_Mapobject_Basic_Special_MayaInsignia.png",
@@ -27025,6 +27545,14 @@
       "bytes": 1077,
       "crc32": 410692581,
       "sha256": "89466181161e38b777c539b72e4b9d1d32c454479fa1382342d3bbe105994f1e"
+    },
+    {
+      "path": "WorldmapObjects/Outposts/Outpost_Mapobject_Level_Special_LuxuriousMarket/Outpost_Mapobject_Level_Special_LuxuriousMarket.png",
+      "file": "files/e5df40f711659974260e2419f5b88c3c3606a5e4edc48fcaee7d4f4cfe87d4fe.png",
+      "package": 0,
+      "bytes": 3580,
+      "crc32": 4101079708,
+      "sha256": "e5df40f711659974260e2419f5b88c3c3606a5e4edc48fcaee7d4f4cfe87d4fe"
     },
     {
       "path": "WorldmapObjects/Outposts/Outpost_Mapobject_Level_Special_MayaInsignia/Outpost_Mapobject_Level_Special_MayaInsignia.png",
@@ -28185,6 +28713,14 @@
       "bytes": 4752,
       "crc32": 3423446824,
       "sha256": "aba54b6f1c8a4459c0584a61661143e88415304c6d174311f1ff3b23a615360a"
+    },
+    {
+      "path": "WorldmapObjects/Previews/Mapobjects_Preview/Preview_Castle_Mapobject_Special_LuxuriousMarket.png",
+      "file": "files/b77b3e49bcb311e1d3e2a0955b2aab5d1f4fff02af00eab36d2aed18cdeb1978.png",
+      "package": 0,
+      "bytes": 29885,
+      "crc32": 2164838552,
+      "sha256": "b77b3e49bcb311e1d3e2a0955b2aab5d1f4fff02af00eab36d2aed18cdeb1978"
     },
     {
       "path": "WorldmapObjects/Previews/Mapobjects_Preview/Preview_Castle_Mapobject_Special_MayaInsignia.png",
