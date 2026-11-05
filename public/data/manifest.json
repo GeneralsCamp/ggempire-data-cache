@@ -32,7 +32,8 @@
     "itemVersionUrl": "/data/empire/ItemsVersion.properties",
     "itemsUrl": "/data/empire/items_latest.json",
     "archivedItemsUrl": "/data/empire/items/items_788_03.json",
-    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v788.03.json"
+    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v788.03.json",
+    "archivedItemsSha256": "913f9979bfc82deccd5504f5a64cd722bd159200eb33921e66887b91b8363bb1"
   },
   "language": {
     "version": "4401",
@@ -78,7 +79,8 @@
     "itemsUrl": "/data/e4k/items_latest.json",
     "archivedItemsUrl": "/data/e4k/items/items_4144021_788_RC_03.json",
     "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/versions.json",
-    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_03.ggs"
+    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_03.ggs",
+    "archivedItemsSha256": "52e4d16885c8a2376f8da27b48e3215e1928b150398a3214e8b3476b9150c3a0"
   },
   "preclient": {
     "source": "preclient",
@@ -93,7 +95,8 @@
     "itemsUrl": "/data/preclient/items_latest.json",
     "archivedItemsUrl": "/data/preclient/items/items_4145051_789_RC_01.json",
     "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4145051/versions.json",
-    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4145051/itemsXML/items_789_RC_01.ggs"
+    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4145051/itemsXML/items_789_RC_01.ggs",
+    "archivedItemsSha256": "7b4fcfedec82b582d4b378ddc49bd3a05c10daae69c7267f669e0f40e0bd7cc7"
   },
   "empireDll": {
     "available": true,
