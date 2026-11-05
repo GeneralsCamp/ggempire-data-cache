@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile, copyFile, rm, readdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import JSZip from "jszip";
 import { XMLParser } from "fast-xml-parser";
@@ -917,6 +918,13 @@ async function main() {
 
     await removeStoredMobileRawData({ history, manifest });
     if (!mobileOnly) await pruneOldItemVersions(history);
+
+    for (const source of ["empire", "e4k", "preclient"]) {
+        const release = manifest[source];
+        if (!release?.archivedItemsUrl) continue;
+        const archive = await readFile(path.join("public", release.archivedItemsUrl));
+        release.archivedItemsSha256 = createHash("sha256").update(archive).digest("hex");
+    }
 
     await writeTextIfChanged(
         outputPath("manifest.json"),
