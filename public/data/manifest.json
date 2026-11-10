@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T13:21:15.061Z",
+  "updatedAt": "2026-11-10T17:52:33.344Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -69,18 +69,34 @@
   "e4k": {
     "source": "e4k",
     "releaseChannel": "live",
-    "appVersion": "4145051",
-    "appStoreVersion": "4.145.51",
-    "appStoreLoaderVersion": "4145051",
+    "appVersion": "4144021",
+    "appStoreVersion": "4.144.21",
+    "appStoreLoaderVersion": "4144021",
     "loaderSource": "app-store",
-    "itemVersion": "789.RC.02",
+    "itemVersion": "788.RC.03",
     "appstoreUrl": "/data/e4k/appstore.json",
     "versionsUrl": "/data/e4k/versions.json",
     "itemsUrl": "/data/e4k/items_latest.json",
-    "archivedItemsUrl": "/data/e4k/items/items_4145051_789_RC_02.json",
+    "archivedItemsUrl": "/data/e4k/items/items_4144021_788_RC_03.json",
+    "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/versions.json",
+    "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4144021/itemsXML/items_788_RC_03.ggs",
+    "archivedItemsSha256": "52e4d16885c8a2376f8da27b48e3215e1928b150398a3214e8b3476b9150c3a0"
+  },
+  "preclient": {
+    "source": "preclient",
+    "releaseChannel": "preclient",
+    "appVersion": "4145051",
+    "appStoreVersion": "4.144.21",
+    "appStoreLoaderVersion": "4144021",
+    "loaderSource": "discovery-config",
+    "itemVersion": "789.RC.02",
+    "appstoreUrl": "/data/e4k/appstore.json",
+    "versionsUrl": "/data/preclient/versions.json",
+    "itemsUrl": "/data/preclient/items_latest.json",
+    "archivedItemsUrl": "/data/preclient/items/items_4145051_789_RC_02.json",
     "originalVersionsUrl": "https://media-s3.goodgamestudios.com/loader/4145051/versions.json",
     "originalItemsUrl": "https://media-s3.goodgamestudios.com/loader/4145051/itemsXML/items_789_RC_02.ggs",
-    "archivedItemsSha256": "b733a9b0569fe8d030e8b092550a287dd5948438e7912335c36f61465607951e"
+    "archivedItemsSha256": "f30dcac96fe79d502acd7b98c129f63dd9639fd52b58a03ce742677563e2242f"
   },
   "empireDll": {
     "available": true,
