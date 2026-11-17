@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T14:27:34.231Z",
+  "updatedAt": "2026-11-17T22:54:01.604Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -28,15 +28,15 @@
     "tr"
   ],
   "empire": {
-    "itemVersion": "790.01",
+    "itemVersion": "790.02",
     "itemVersionUrl": "/data/empire/ItemsVersion.properties",
     "itemsUrl": "/data/empire/items_latest.json",
-    "archivedItemsUrl": "/data/empire/items/items_790_01.json",
-    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v790.01.json",
-    "archivedItemsSha256": "fc22efa1bec39f620b671c944ac7a9773a930f79c2a979251472c5d615f32c06"
+    "archivedItemsUrl": "/data/empire/items/items_790_02.json",
+    "originalItemsUrl": "https://empire-html5.goodgamestudios.com/default/items/items_v790.02.json",
+    "archivedItemsSha256": "0b917086c1aed87b1ed1f221b1857f1239c28a57b3da6e520657202958afa7db"
   },
   "language": {
-    "version": "4418",
+    "version": "4422",
     "metadataUrl": "/data/lang/metadata.json",
     "available": {
       "en": "/data/lang/en.json",
