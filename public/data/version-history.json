@@ -59,16 +59,6 @@
   ],
   "e4kItems": [
     {
-      "appVersion": "4141031",
-      "appStoreVersion": "4.141.31",
-      "itemVersion": "785.RC.03",
-      "addedAt": "2026-09-09T09:49:33.771Z",
-      "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4141031/versions.json",
-      "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4141031/itemsXML/items_785_RC_03.ggs",
-      "file": "/data/e4k/items/items_4141031_785_RC_03.json",
-      "latestFile": "/data/e4k/items_latest.json"
-    },
-    {
       "appVersion": "4142035",
       "appStoreVersion": "4.142.35",
       "itemVersion": "786.RC.02",
@@ -160,6 +150,20 @@
       "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4145051/versions.json",
       "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4145051/itemsXML/items_789_RC_03.ggs",
       "file": "/data/e4k/items/items_4145051_789_RC_03.json",
+      "latestFile": "/data/e4k/items_latest.json"
+    },
+    {
+      "source": "e4k",
+      "releaseChannel": "live",
+      "loaderSource": "app-store",
+      "appVersion": "4145051",
+      "appStoreVersion": "4.145.51",
+      "appStoreLoaderVersion": "4145051",
+      "itemVersion": "789.RC.04",
+      "addedAt": "2026-11-20T12:57:15.084Z",
+      "versionsSourceUrl": "https://media-s3.goodgamestudios.com/loader/4145051/versions.json",
+      "sourceUrl": "https://media-s3.goodgamestudios.com/loader/4145051/itemsXML/items_789_RC_04.ggs",
+      "file": "/data/e4k/items/items_4145051_789_RC_04.json",
       "latestFile": "/data/e4k/items_latest.json"
     }
   ],
