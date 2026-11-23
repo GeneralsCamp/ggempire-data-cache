@@ -6,12 +6,11 @@
       {
         "title": "Samurai Invasion",
         "dates": [
-          "23/10 - 24/10",
-          "30/10 - 31/10",
-          "06/11 - 07/11",
-          "13/11 - 14/11",
-          "20/11 - 21/11",
-          "27/11 - 28/11"
+          "27/11 - 28/11",
+          "04/12 - 05/12",
+          "11/12 - 12/12",
+          "18/12 - 19/12",
+          "25/12 - 26/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/samuraiinvasion.webp?fit=127%2C114&ssl=1"
@@ -19,12 +18,12 @@
       {
         "title": "Nomad Invasion",
         "dates": [
-          "24/10 - 27/10",
-          "31/10 - 03/11",
-          "07/11 - 10/11",
-          "14/11 - 17/11",
           "21/11 - 24/11",
-          "28/11 - 01/12"
+          "28/11 - 01/12",
+          "05/12 - 08/12",
+          "12/12 - 15/12",
+          "19/12 - 22/12",
+          "26/12 - 29/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/nomadinvasion.webp?fit=127%2C114&ssl=1"
@@ -32,9 +31,9 @@
       {
         "title": "Bloodcrow Invasion",
         "dates": [
-          "27/10 - 30/10",
-          "10/11 - 13/11",
-          "24/11 - 27/11"
+          "24/11 - 27/11",
+          "08/12 - 11/12",
+          "22/12 - 25/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bloodcrow.webp?fit=127%2C114&ssl=1"
@@ -42,9 +41,9 @@
       {
         "title": "War of the Realms",
         "dates": [
-          "20/10 - 23/10",
-          "03/11 - 06/11",
-          "17/11 - 20/11"
+          "01/12 - 04/12",
+          "15/12 - 18/12",
+          "29/12 - 01/01"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/waroftherealms.webp?fit=127%2C114&ssl=1"
@@ -52,22 +51,22 @@
       {
         "title": "Berimond",
         "dates": [
-          "27/10 - 30/10",
           "24/11 - 27/11",
-          "14/11 - 17/11"
+          "22/12 - 25/12",
+          "12/12 - 15/12"
         ],
         "dateGroups": [
           {
             "label": "Kingdom",
             "dates": [
-              "27/10 - 30/10",
-              "24/11 - 27/11"
+              "24/11 - 27/11",
+              "22/12 - 25/12"
             ]
           },
           {
             "label": "Invasion",
             "dates": [
-              "14/11 - 17/11"
+              "12/12 - 15/12"
             ]
           }
         ],
@@ -76,7 +75,7 @@
       {
         "title": "The Bladecoast",
         "dates": [
-          "12/11 - 19/11"
+          "12/12 - 19/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bladecoast.webp?fit=127%2C114&ssl=1"
@@ -84,7 +83,7 @@
       {
         "title": "Rift Raid",
         "dates": [
-          "09/11 - 16/11"
+          "07/12 - 14/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/riftraid.webp?fit=127%2C114&ssl=1"
@@ -100,9 +99,10 @@
       {
         "title": "Beyond the Horizon",
         "dates": [
-          "22/10 - 26/10",
-          "05/11 - 09/11",
-          "19/11 - 23/11"
+          "19/11 - 23/11",
+          "03/12 - 07/12",
+          "14/12 - 21/12",
+          "31/12 - 04/01"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/beyondthehorizon.webp?fit=127%2C114&ssl=1"
@@ -110,16 +110,13 @@
       {
         "title": "Outer Realms",
         "dates": [
-          "19/10 - 22/10",
-          "26/10 - 29/10",
-          "29/10 - 02/11",
-          "02/11 - 05/11",
-          "09/11 - 12/11",
-          "12/11 - 16/11",
-          "16/11 - 19/11",
           "23/11 - 26/11",
-          "26/11 - 30/11",
-          "30/11 - 03/12"
+          "30/11 - 03/12",
+          "07/12 - 10/12",
+          "10/12 - 14/12",
+          "21/12 - 24/12",
+          "24/12 - 28/12",
+          "28/12 - 31/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/outerrealms.webp?fit=127%2C114&ssl=1"
@@ -127,8 +124,8 @@
       {
         "title": "The Imperial Patronage",
         "dates": [
-          "16/10 - 23/10",
-          "17/11 - 24/11"
+          "17/11 - 24/11",
+          "18/12 - 25/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/patronage.webp?fit=127%2C114&ssl=1"
@@ -136,8 +133,8 @@
       {
         "title": "LTPE",
         "dates": [
-          "16/10 - 17/11 (Halloween)",
-          "17/11 - 18/12 (Dragon Rider)"
+          "17/11 - 18/12 (Dragon Rider)",
+          "18/12 - 16/01 (Christmas)"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/ltpe.webp?fit=127%2C114&ssl=1"
@@ -150,12 +147,11 @@
       {
         "title": "Samurai Invasion",
         "dates": [
-          "23/10 - 24/10",
-          "30/10 - 31/10",
-          "06/11 - 07/11",
-          "13/11 - 14/11",
-          "20/11 - 21/11",
-          "27/11 - 28/11"
+          "27/11 - 28/11",
+          "04/12 - 05/12",
+          "11/12 - 12/12",
+          "18/12 - 19/12",
+          "25/12 - 26/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/samuraiinvasion.webp?fit=127%2C114&ssl=1"
@@ -163,12 +159,12 @@
       {
         "title": "Nomad Invasion",
         "dates": [
-          "24/10 - 27/10",
-          "31/10 - 03/11",
-          "07/11 - 10/11",
-          "14/11 - 17/11",
           "21/11 - 24/11",
-          "28/11 - 01/12"
+          "28/11 - 01/12",
+          "05/12 - 08/12",
+          "12/12 - 15/12",
+          "19/12 - 22/12",
+          "26/12 - 29/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/nomadinvasion.webp?fit=127%2C114&ssl=1"
@@ -176,9 +172,9 @@
       {
         "title": "Bloodcrow Invasion",
         "dates": [
-          "27/10 - 30/10",
-          "10/11 - 13/11",
-          "24/11 - 27/11"
+          "24/11 - 27/11",
+          "08/12 - 11/12",
+          "22/12 - 25/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bloodcrow.webp?fit=127%2C114&ssl=1"
@@ -186,9 +182,9 @@
       {
         "title": "War of the Realms",
         "dates": [
-          "20/10 - 23/10",
-          "03/11 - 06/11",
-          "17/11 - 20/11"
+          "01/12 - 04/12",
+          "15/12 - 18/12",
+          "29/12 - 01/01"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/waroftherealms.webp?fit=127%2C114&ssl=1"
@@ -196,15 +192,15 @@
       {
         "title": "Berimond",
         "dates": [
-          "27/10 - 30/10",
-          "24/11 - 27/11"
+          "24/11 - 27/11",
+          "22/12 - 25/12"
         ],
         "dateGroups": [
           {
             "label": "Kingdom",
             "dates": [
-              "27/10 - 30/10",
-              "24/11 - 27/11"
+              "24/11 - 27/11",
+              "22/12 - 25/12"
             ]
           }
         ],
@@ -213,7 +209,7 @@
       {
         "title": "The Bladecoast",
         "dates": [
-          "12/11 - 19/11"
+          "12/12 - 19/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/bladecoast.webp?fit=127%2C114&ssl=1"
@@ -221,7 +217,7 @@
       {
         "title": "Rift Raid",
         "dates": [
-          "09/11 - 16/11"
+          "07/12 - 14/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/riftraid.webp?fit=127%2C114&ssl=1"
@@ -229,7 +225,8 @@
       {
         "title": "The Grand Tournament",
         "dates": [
-          "23/11 - 30/11"
+          "23/11 - 30/11",
+          "21/12 - 28/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/grandtournament.webp?fit=127%2C114&ssl=1"
@@ -237,9 +234,9 @@
       {
         "title": "Beyond the Horizon",
         "dates": [
-          "22/10 - 26/10",
-          "05/11 - 09/11",
-          "19/11 - 23/11"
+          "26/11 - 30/11",
+          "03/12 - 07/12",
+          "14/12 - 21/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/beyondthehorizon.webp?fit=127%2C114&ssl=1"
@@ -247,16 +244,13 @@
       {
         "title": "Outer Realms",
         "dates": [
-          "19/10 - 22/10",
-          "26/10 - 29/10",
-          "29/10 - 02/11",
-          "02/11 - 05/11",
-          "09/11 - 12/11",
-          "12/11 - 16/11",
-          "16/11 - 19/11",
           "23/11 - 26/11",
-          "26/11 - 30/11",
-          "30/11 - 03/12"
+          "30/11 - 03/12",
+          "07/12 - 10/12",
+          "10/12 - 14/12",
+          "21/12 - 24/12",
+          "24/12 - 28/12",
+          "28/12 - 31/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/outerrealms.webp?fit=127%2C114&ssl=1"
@@ -264,8 +258,8 @@
       {
         "title": "The Imperial Patronage",
         "dates": [
-          "16/10 - 23/10",
-          "17/11 - 24/11"
+          "17/11 - 24/11",
+          "18/12 - 25/12"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/patronage.webp?fit=127%2C114&ssl=1"
@@ -273,8 +267,8 @@
       {
         "title": "LTPE",
         "dates": [
-          "6/10 - 17/11 (Halloween)",
-          "17/11 - 18/12 (Dragon Rider)"
+          "17/11 - 18/12 (Dragon Rider)",
+          "18/12 - 16/01 (Christmas)"
         ],
         "dateGroups": null,
         "imageUrl": "https://i0.wp.com/communityhub.goodgamestudios.com/wp-content/uploads/2026/03/ltpe.webp?fit=127%2C114&ssl=1"
