@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T00:53:44.915Z",
+  "updatedAt": "2026-11-24T10:57:33.437Z",
   "generatedBy": "GitHub Actions",
   "languages": [
     "en",
@@ -36,7 +36,7 @@
     "archivedItemsSha256": "c8e028ebf5c8714bf50fc9bb5c63f8716d9fe9476c4708b75a537b383fa6198c"
   },
   "language": {
-    "version": "4430",
+    "version": "4431",
     "metadataUrl": "/data/lang/metadata.json",
     "available": {
       "en": "/data/lang/en.json",
